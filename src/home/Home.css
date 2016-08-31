@@ -1,0 +1,9 @@
+.section {
+  max-width: 1024px;
+  margin: 20px auto;
+}
+.text-box {
+  text-align: center;
+  min-height: 300px;
+  padding: 100px 0;
+}
