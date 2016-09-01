@@ -1,0 +1,13 @@
+.organization {
+  width: 20%;
+  float: left;
+  margin-bottom: 20px;
+}
+.organization img {
+  display: block;
+  margin: auto;
+}
+.organization p {
+  display: block;
+  margin: auto;
+}
