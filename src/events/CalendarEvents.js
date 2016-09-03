@@ -13,7 +13,6 @@ class CalendarEvents extends Component {
     .then( (response) => {
       return response.json() })   
       .then( (json) => {
-        console.log(json);
         this.setState({events: json.items});
       });
   }

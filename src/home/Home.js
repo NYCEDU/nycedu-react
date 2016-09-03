@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './Home.css';
 import Section from './Section';
 
+import DocumentTitle from 'react-document-title';
+
 import RaisedButton from 'material-ui/RaisedButton';
 
 class Home extends Component {
@@ -27,10 +29,10 @@ class Home extends Component {
     this.setState({pos3: (window.scrollY >= (2*window.innerHeight)) ? 'relative':'fixed'});
   }
 
-
   render() {
     return (
       <div style={{height:'300vh'}}>
+        <DocumentTitle title="Welcome to your community | #NYCEDU" />
         <Section className="community" zIndex={3} backgroundColor="#8bc34a" position='relative'>
           <h1>#NYCEDU</h1>
           <p>We are a community of teachers, technologists, advocates, and administrators.</p>
