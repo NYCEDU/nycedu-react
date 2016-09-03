@@ -1,17 +1,17 @@
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 import {
-  orange500, orange700,
+  lightGreen500, lightGreen100,
   blueA200
 } from 'material-ui/styles/colors';
 
 const theme = getMuiTheme({
   fontFamily: 'Roboto, sans-serif',
   palette: {
-    primary1Color: orange500,
-    primary2Color: orange700,
+    primary1Color: lightGreen500,
+    primary2Color: lightGreen100,
     accent1Color: blueA200,
-    pickerHeaderColor: orange500
+    pickerHeaderColor: lightGreen500
   },
   appBar: {
     height: 50,

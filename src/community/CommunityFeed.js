@@ -12,7 +12,6 @@ class CommunityFeed extends Component {
     .then( (response) => {
       return response.json() })   
       .then( (json) => {
-        console.log(json);
         this.setState({data: json.feed.entry});
       });
   }

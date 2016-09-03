@@ -23,7 +23,8 @@ class App extends Component {
       <MuiThemeProvider muiTheme={theme}>
         <div className="App">
           <AppBar title={this.props.children.props.route.title + ' - #nycedu'}
-            iconElementRight={<FlatButton label="About" href="/about"/>}
+                  iconElementRight={<FlatButton label="About" href="/about"/>}
+                  style={{position:'fixed', top: 0}}
           />
           {this.props.children}
         </div>
