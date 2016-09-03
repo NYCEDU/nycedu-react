@@ -1,3 +1,9 @@
+.home-button {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #fff; 
+}
 h1 {
   text-align: center;
 }

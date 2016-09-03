@@ -1,12 +1,5 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
-import { Router, Route, IndexRoute, browserHistory } from 'react-router'
-
 import './App.css';
-import Home from './home/Home';
-import Community from './community/Community';
-import Events from './events/Events';
-import Sponsor from './sponsor/Sponsor';
 
 //Material-UI
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
@@ -22,7 +15,10 @@ class App extends Component {
     return (
       <MuiThemeProvider muiTheme={theme}>
         <div className="App">
-          <AppBar title={this.props.children.props.route.title + ' - #nycedu'}
+          <AppBar title={<a href="/"
+                            className="home-button">
+                              {this.props.children.props.route.title + ' - #nycedu'}
+                          </a>}
                   iconElementRight={<FlatButton label="About" href="/about"/>}
                   style={{position:'fixed', top: 0}}
           />
@@ -33,15 +29,4 @@ class App extends Component {
   }
 }
 export default App;
-
-render((
-  <Router history={browserHistory}>
-    <Route path="/" component={App}>
-      <IndexRoute component={Home} title="Home" />
-      <Route path="community" component={Community} title="Community" />
-      <Route path="events" component={Events} title="Events" />
-      <Route path="sponsor" component={Sponsor} title="Sponsor" />
-    </Route>
-  </Router>
-), document.body)
 
