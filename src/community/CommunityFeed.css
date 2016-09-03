@@ -1,13 +1,29 @@
+.organization-list {
+  max-width: 900px;
+  margin: auto;
+}
 .organization {
-  width: 20%;
+  width: 33%;
   float: left;
   margin-bottom: 20px;
 }
 .organization img {
   display: block;
   margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 150px;
+  width: 150px;
+  border: #757575 7px solid;
+  background: #fff;
+}
+.organization h2 {
+  text-align: center;
 }
 .organization p {
   display: block;
   margin: auto;
+}
+.logo-wrapper {
+
 }

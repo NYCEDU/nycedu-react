@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import './CommunityFeed.css';
+import Organization from './Organization';
 
 class CommunityFeed extends Component {
 
   state = {
-    data: []
+    organizations: []
   }
 
   componentDidMount() {
@@ -12,21 +13,42 @@ class CommunityFeed extends Component {
     .then( (response) => {
       return response.json() })   
       .then( (json) => {
-        this.setState({data: json.feed.entry});
+        let orgs = json.feed.entry.map(function(obj){
+          return {
+            address               : obj['gsx$address']['$t'],
+            staticDescription     : obj['gsx$briefdescriptionstatic']['$t'],
+            twitterDescription    : obj['gsx$briefdescriptionviatwitter']['$t'],
+            companyororganization : obj['gsx$companyororganization']['$t'],
+            numberOfEmployees     : obj['gsx$est.ofemployeesinnyc']['$t'],
+            eventsCalendar        : obj['gsx$eventscalendar']['$t'],
+            founded               : obj['gsx$founded']['$t'],
+            funding               : obj['gsx$funding']['$t'],
+            hq                    : obj['gsx$hq']['$t'],
+            jobWebsite            : obj['gsx$jobwebsite']['$t'],
+            latitude              : obj['gsx$latitude']['$t'],
+            longitude             : obj['gsx$longitude']['$t'],
+            miscNotes             : obj['gsx$miscnotes']['$t'],
+            organizationType      : obj['gsx$organizationtype']['$t'],
+            targetAudience        : obj['gsx$targetaudience']['$t'],
+            twitterHandle         : obj['gsx$twitterhandle']['$t'],
+            websiteUrl            : obj['gsx$websiteurl']['$t']}
+        });
+        this.setState({organizations: orgs});
       });
   }
 
   render() {
     return (
-      <ul>
-        {this.state.data.map(
+      <ul className="organization-list">
+        {this.state.organizations.map(
           function(entry, i){
-            return <div className='organization' key={i}>
-              <img src={'https://twitter.com/'+entry.gsx$twitterhandle.$t+'/profile_image?size=bigger'}/>
-              <p>{entry.gsx$companyororganization.$t}</p>
-              <p>{entry.gsx$websiteurl.$t}</p>
-              <p>{entry.gsx$organizationtype.$t}</p>
-            </div>;
+            return <Organization
+                      key={i}
+                      image={'https://twitter.com/'+entry.twitterHandle+'/profile_image?size=original'}
+                      twitterHandle={entry.twitterHandle}
+                      name={entry.companyororganization}
+                      website={entry.websiteUrl}
+                      type={entry.organizationType} />
           }
         )}
       </ul>
