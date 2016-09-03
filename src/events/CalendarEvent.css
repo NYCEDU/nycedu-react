@@ -14,3 +14,6 @@
 .event-body {
   height: 300px;
 }
+.event-location {
+  border: 1px solid black;
+}

@@ -28,6 +28,9 @@ class CalendarEvent extends Component {
           <div className="event-location">
             {event.location}
           </div>
+          <span>Organizer: <a href={'mailto:'+event.organizer.email}>
+            {event.organizer.displayName}</a>
+          </span>
         </CardText>
         <CardActions>
           <RaisedButton label="learn more" target="_blank" href={event.htmlLink} />
