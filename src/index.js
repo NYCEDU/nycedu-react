@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Router, Route, IndexRoute, browserHistory } from 'react-router';
+
 import './index.css';
+
 import App from './App';
 import Home from './home/Home';
 import Community from './community/Community';
 import Events from './events/Events';
 import Sponsor from './sponsor/Sponsor';
-import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
 ReactDOM.render(
   <Router history={browserHistory}>

@@ -1,0 +1,16 @@
+.event {
+  max-width: 45%;
+  float: left;
+  margin-right: 10%;
+  margin-bottom: 20px;
+}
+.event:nth-child(2n+0) {
+  margin-right: 0;
+}
+.event-header {
+  background-color: #689f38;
+  color: #fff;
+}
+.event-body {
+  height: 300px;
+}
