@@ -3,14 +3,13 @@
   width: 100%;
   position: fixed;
   top: 0;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, .3);
-}
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3); }
+
 .community {
-  background: url('./community_illustration1.svg') no-repeat center;
-}
+  background: url("./community_illustration1.svg") no-repeat center; }
+
 .text-box {
   text-align: center;
   min-height: 300px;
   padding: 300px 0;
-  margin: auto;
-}
+  margin: auto; }

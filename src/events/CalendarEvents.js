@@ -23,11 +23,10 @@ class CalendarEvents extends Component {
         <div>
           <h2>This month</h2>
         </div>
-        <dl className="events-list"> 
+        <dl className="events-list row"> 
           {this.state.events.map(
             function (event) {
               return <CalendarEvent
-                        className="events__item"
                         key={event.id}
                         event={event} />
             }

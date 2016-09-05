@@ -1,19 +1,24 @@
 .event {
-  max-width: 45%;
-  float: left;
-  margin-right: 10%;
   margin-bottom: 20px;
-}
-.event:nth-child(2n+0) {
-  margin-right: 0;
-}
+  overflow: hidden; }
+
 .event-header {
   background-color: #689f38;
-  color: #fff;
-}
+  color: #fff; }
+
+.event-body h3 {
+  max-height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
 .event-body {
-  height: 300px;
-}
+  height: 350px; }
+
+.event-description {
+  max-height: 200px;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis; }
+
 .event-location {
-  border: 1px solid black;
-}
+  border: 1px solid black; }

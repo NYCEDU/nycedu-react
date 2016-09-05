@@ -1,8 +1,6 @@
 .organization {
-  width: 33%;
-  float: left;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
+
 .organization img {
   display: block;
   margin: auto;
@@ -11,12 +9,11 @@
   height: 150px;
   width: 150px;
   border: #757575 7px solid;
-  background: #fff;
-}
+  background: #fff; }
+
 .organization h2 {
-  text-align: center;
-}
+  text-align: center; }
+
 .organization p {
   display: block;
-  margin: auto;
-}
+  margin: auto; }

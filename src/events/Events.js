@@ -7,7 +7,7 @@ import DocumentTitle from 'react-document-title';
 class Events extends Component {
   render() {
     return (
-      <div className="events-page">
+      <div className="events-page container">
         <DocumentTitle title="Events | #NYCEDU" />
         <h1>Events</h1>
         <p>What are the events you need to know about happening in and around the #NYCEDU community? Check out the calendar below to find out!</p>

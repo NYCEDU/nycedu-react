@@ -39,7 +39,7 @@ class CommunityFeed extends Component {
 
   render() {
     return (
-      <ul className="organization-list">
+      <ul className="organization-list row">
         {this.state.organizations.map(
           function(entry, i){
             return <Organization

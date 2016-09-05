@@ -17,25 +17,27 @@ class CalendarEvent extends Component {
     var emailHash = md5(this.props.event.organizer.email).toString();
 
     return(
-      <Card className="event">
-        <CardHeader className="event-header"
-                    title={day}
-                    subtitle={start + ' - ' + end}
-                    avatar={'https://www.gravatar.com/avatar/'+emailHash}/>
-        <CardText className="event-body">
-          <h3>{event.summary}</h3>
-          <p>{event.description}</p>
-          <div className="event-location">
-            {event.location}
-          </div>
-          <span>Organizer: <a href={'mailto:'+event.organizer.email}>
-            {event.organizer.displayName}</a>
-          </span>
-        </CardText>
-        <CardActions>
-          <RaisedButton label="learn more" target="_blank" href={event.htmlLink} />
-        </CardActions>
-      </Card>
+      <div className=" col-sm-6 col-md-4">
+        <Card className="event">
+          <CardHeader className="event-header"
+                      title={day}
+                      subtitle={start + ' - ' + end}
+                      avatar={'https://www.gravatar.com/avatar/'+emailHash}/>
+          <CardText className="event-body">
+            <h3>{event.summary}</h3>
+            <p className="event-description">{event.description}</p>
+            <div className="event-location">
+              {event.location}
+            </div>
+            <span>Organizer: <a href={'mailto:'+event.organizer.email}>
+              {event.organizer.displayName}</a>
+            </span>
+          </CardText>
+          <CardActions>
+            <RaisedButton label="learn more" target="_blank" href={event.htmlLink} />
+          </CardActions>
+        </Card>
+      </div>
     )
   }
 }
