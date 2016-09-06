@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css';
 import Section from './Section';
+import community from './community.svg';
 
 import DocumentTitle from 'react-document-title';
 
@@ -34,6 +35,7 @@ class Home extends Component {
       <div style={{height:'300vh'}}>
         <DocumentTitle title="Welcome to your community | #NYCEDU" />
         <Section className="community" zIndex={3} backgroundColor="#8bc34a" position='relative'>
+          <object id="community-background" type="image/svg+xml" data={community}>Your browser does not support svgs.</object>
           <h1>#NYCEDU</h1>
           <p>We are a community of teachers, technologists, advocates, and administrators.</p>
           <p>We can do more and do better, together.</p>

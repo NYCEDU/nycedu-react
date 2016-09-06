@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="1200px" height="835px" viewBox="0 0 1200 835" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1200px" height="835px" viewBox="0 0 1200 835" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="community">
     <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
-    <title>community_illustration1</title>
+    <title>community</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <rect id="path-1" x="4.80181612" y="15.3318149" width="10.6111562" height="2.87471529" rx="1.43735764"></rect>
@@ -1432,359 +1432,359 @@
                     <use id="Path-3" mask="url(#mask-14)" stroke-width="5.9904" xlink:href="#path-13"></use>
                     <polyline id="Rectangle-8" stroke-width="2.9952" points="10.4715324 180.068098 10.4715324 147.574607 10.4715324 147.574607 94.5923859 147.574607 94.5923859 180.068098"></polyline>
                     <rect id="Rectangle-2" stroke-width="2.9952" x="73.5621725" y="180.068098" width="27.1357592" height="50.0941326"></rect>
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-16)" stroke-width="4.4928" xlink:href="#path-15"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-18)" stroke-width="4.4928" xlink:href="#path-17"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-20)" stroke-width="4.4928" xlink:href="#path-19"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-22)" stroke-width="4.4928" xlink:href="#path-21"></use>
-                    <use id="Rectangle-2-Copy-7" mask="url(#mask-24)" stroke-width="4.4928" xlink:href="#path-23"></use>
-                    <use id="Rectangle-2-Copy-6" mask="url(#mask-26)" stroke-width="4.4928" xlink:href="#path-25"></use>
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-28)" stroke-width="4.4928" xlink:href="#path-27"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-30)" stroke-width="4.4928" xlink:href="#path-29"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-32)" stroke-width="4.4928" xlink:href="#path-31"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-34)" stroke-width="4.4928" xlink:href="#path-33"></use>
-                    <use id="Rectangle-2-Copy-7" mask="url(#mask-36)" stroke-width="4.4928" xlink:href="#path-35"></use>
-                    <use id="Rectangle-2-Copy-6" mask="url(#mask-38)" stroke-width="4.4928" xlink:href="#path-37"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-40)" stroke-width="4.4928" xlink:href="#path-39"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-42)" stroke-width="4.4928" xlink:href="#path-41"></use>
-                    <use id="Rectangle-2-Copy-8" mask="url(#mask-44)" stroke-width="4.4928" xlink:href="#path-43"></use>
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-46)" stroke-width="4.4928" xlink:href="#path-45"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-48)" stroke-width="4.4928" xlink:href="#path-47"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-50)" stroke-width="4.4928" xlink:href="#path-49"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-52)" stroke-width="4.4928" xlink:href="#path-51"></use>
-                    <use id="Rectangle-2-Copy-7" mask="url(#mask-54)" stroke-width="4.4928" xlink:href="#path-53"></use>
-                    <use id="Rectangle-2-Copy-6" mask="url(#mask-56)" stroke-width="4.4928" xlink:href="#path-55"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-58)" stroke-width="4.4928" xlink:href="#path-57"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-60)" stroke-width="4.4928" xlink:href="#path-59"></use>
-                    <use id="Rectangle-2-Copy-8" mask="url(#mask-62)" stroke-width="4.4928" xlink:href="#path-61"></use>
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-64)" stroke-width="4.4928" xlink:href="#path-63"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-66)" stroke-width="4.4928" xlink:href="#path-65"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-68)" stroke-width="4.4928" xlink:href="#path-67"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-70)" stroke-width="4.4928" xlink:href="#path-69"></use>
-                    <use id="Rectangle-2-Copy-7" mask="url(#mask-72)" stroke-width="4.4928" xlink:href="#path-71"></use>
-                    <use id="Rectangle-2-Copy-6" mask="url(#mask-74)" stroke-width="4.4928" xlink:href="#path-73"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-76)" stroke-width="4.4928" xlink:href="#path-75"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-78)" stroke-width="4.4928" xlink:href="#path-77"></use>
-                    <use id="Rectangle-2-Copy-8" mask="url(#mask-80)" stroke-width="4.4928" xlink:href="#path-79"></use>
-                    <rect id="Rectangle-2-Copy" stroke-width="2.9952" x="68.8134146" y="231.516126" width="36.6332749" height="138.097338"></rect>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-16)" stroke-width="4.4928" xlink:href="#path-15"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-18)" stroke-width="4.4928" xlink:href="#path-17"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-20)" stroke-width="4.4928" xlink:href="#path-19"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-22)" stroke-width="4.4928" xlink:href="#path-21"></use>
+                    <use class="windows" id="Rectangle-2-Copy-7" mask="url(#mask-24)" stroke-width="4.4928" xlink:href="#path-23"></use>
+                    <use class="windows" id="Rectangle-2-Copy-6" mask="url(#mask-26)" stroke-width="4.4928" xlink:href="#path-25"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-28)" stroke-width="4.4928" xlink:href="#path-27"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-30)" stroke-width="4.4928" xlink:href="#path-29"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-32)" stroke-width="4.4928" xlink:href="#path-31"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-34)" stroke-width="4.4928" xlink:href="#path-33"></use>
+                    <use class="windows" id="Rectangle-2-Copy-7" mask="url(#mask-36)" stroke-width="4.4928" xlink:href="#path-35"></use>
+                    <use class="windows" id="Rectangle-2-Copy-6" mask="url(#mask-38)" stroke-width="4.4928" xlink:href="#path-37"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-40)" stroke-width="4.4928" xlink:href="#path-39"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-42)" stroke-width="4.4928" xlink:href="#path-41"></use>
+                    <use class="windows" id="Rectangle-2-Copy-8" mask="url(#mask-44)" stroke-width="4.4928" xlink:href="#path-43"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-46)" stroke-width="4.4928" xlink:href="#path-45"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-48)" stroke-width="4.4928" xlink:href="#path-47"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-50)" stroke-width="4.4928" xlink:href="#path-49"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-52)" stroke-width="4.4928" xlink:href="#path-51"></use>
+                    <use class="windows" id="Rectangle-2-Copy-7" mask="url(#mask-54)" stroke-width="4.4928" xlink:href="#path-53"></use>
+                    <use class="windows" id="Rectangle-2-Copy-6" mask="url(#mask-56)" stroke-width="4.4928" xlink:href="#path-55"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-58)" stroke-width="4.4928" xlink:href="#path-57"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-60)" stroke-width="4.4928" xlink:href="#path-59"></use>
+                    <use class="windows" id="Rectangle-2-Copy-8" mask="url(#mask-62)" stroke-width="4.4928" xlink:href="#path-61"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-64)" stroke-width="4.4928" xlink:href="#path-63"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-66)" stroke-width="4.4928" xlink:href="#path-65"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-68)" stroke-width="4.4928" xlink:href="#path-67"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-70)" stroke-width="4.4928" xlink:href="#path-69"></use>
+                    <use class="windows" id="Rectangle-2-Copy-7" mask="url(#mask-72)" stroke-width="4.4928" xlink:href="#path-71"></use>
+                    <use class="windows" id="Rectangle-2-Copy-6" mask="url(#mask-74)" stroke-width="4.4928" xlink:href="#path-73"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-76)" stroke-width="4.4928" xlink:href="#path-75"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-78)" stroke-width="4.4928" xlink:href="#path-77"></use>
+                    <use class="windows" id="Rectangle-2-Copy-8" mask="url(#mask-80)" stroke-width="4.4928" xlink:href="#path-79"></use>
+                    <rect class="windows" id="Rectangle-2-Copy" stroke-width="2.9952" x="68.8134146" y="231.516126" width="36.6332749" height="138.097338"></rect>
                     <rect id="Rectangle-2" stroke-width="2.9952" x="5.04438058" y="179.39115" width="27.1357592" height="50.0941326"></rect>
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-82)" stroke-width="4.4928" xlink:href="#path-81"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-84)" stroke-width="4.4928" xlink:href="#path-83"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-86)" stroke-width="4.4928" xlink:href="#path-85"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-88)" stroke-width="4.4928" xlink:href="#path-87"></use>
-                    <use id="Rectangle-2-Copy-7" mask="url(#mask-90)" stroke-width="4.4928" xlink:href="#path-89"></use>
-                    <use id="Rectangle-2-Copy-6" mask="url(#mask-92)" stroke-width="4.4928" xlink:href="#path-91"></use>
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-94)" stroke-width="4.4928" xlink:href="#path-93"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-96)" stroke-width="4.4928" xlink:href="#path-95"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-98)" stroke-width="4.4928" xlink:href="#path-97"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-100)" stroke-width="4.4928" xlink:href="#path-99"></use>
-                    <use id="Rectangle-2-Copy-7" mask="url(#mask-102)" stroke-width="4.4928" xlink:href="#path-101"></use>
-                    <use id="Rectangle-2-Copy-6" mask="url(#mask-104)" stroke-width="4.4928" xlink:href="#path-103"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-106)" stroke-width="4.4928" xlink:href="#path-105"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-108)" stroke-width="4.4928" xlink:href="#path-107"></use>
-                    <use id="Rectangle-2-Copy-8" mask="url(#mask-110)" stroke-width="4.4928" xlink:href="#path-109"></use>
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-112)" stroke-width="4.4928" xlink:href="#path-111"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-114)" stroke-width="4.4928" xlink:href="#path-113"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-116)" stroke-width="4.4928" xlink:href="#path-115"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-118)" stroke-width="4.4928" xlink:href="#path-117"></use>
-                    <use id="Rectangle-2-Copy-7" mask="url(#mask-120)" stroke-width="4.4928" xlink:href="#path-119"></use>
-                    <use id="Rectangle-2-Copy-6" mask="url(#mask-122)" stroke-width="4.4928" xlink:href="#path-121"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-124)" stroke-width="4.4928" xlink:href="#path-123"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-126)" stroke-width="4.4928" xlink:href="#path-125"></use>
-                    <use id="Rectangle-2-Copy-8" mask="url(#mask-128)" stroke-width="4.4928" xlink:href="#path-127"></use>
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-130)" stroke-width="4.4928" xlink:href="#path-129"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-132)" stroke-width="4.4928" xlink:href="#path-131"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-134)" stroke-width="4.4928" xlink:href="#path-133"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-136)" stroke-width="4.4928" xlink:href="#path-135"></use>
-                    <use id="Rectangle-2-Copy-7" mask="url(#mask-138)" stroke-width="4.4928" xlink:href="#path-137"></use>
-                    <use id="Rectangle-2-Copy-6" mask="url(#mask-140)" stroke-width="4.4928" xlink:href="#path-139"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-142)" stroke-width="4.4928" xlink:href="#path-141"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-144)" stroke-width="4.4928" xlink:href="#path-143"></use>
-                    <use id="Rectangle-2-Copy-8" mask="url(#mask-146)" stroke-width="4.4928" xlink:href="#path-145"></use>
-                    <rect id="Rectangle-2-Copy" stroke-width="2.9952" x="0.295622722" y="230.839179" width="36.6332749" height="138.097338"></rect>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-82)" stroke-width="4.4928" xlink:href="#path-81"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-84)" stroke-width="4.4928" xlink:href="#path-83"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-86)" stroke-width="4.4928" xlink:href="#path-85"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-88)" stroke-width="4.4928" xlink:href="#path-87"></use>
+                    <use class="windows" id="Rectangle-2-Copy-7" mask="url(#mask-90)" stroke-width="4.4928" xlink:href="#path-89"></use>
+                    <use class="windows" id="Rectangle-2-Copy-6" mask="url(#mask-92)" stroke-width="4.4928" xlink:href="#path-91"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-94)" stroke-width="4.4928" xlink:href="#path-93"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-96)" stroke-width="4.4928" xlink:href="#path-95"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-98)" stroke-width="4.4928" xlink:href="#path-97"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-100)" stroke-width="4.4928" xlink:href="#path-99"></use>
+                    <use class="windows" id="Rectangle-2-Copy-7" mask="url(#mask-102)" stroke-width="4.4928" xlink:href="#path-101"></use>
+                    <use class="windows" id="Rectangle-2-Copy-6" mask="url(#mask-104)" stroke-width="4.4928" xlink:href="#path-103"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-106)" stroke-width="4.4928" xlink:href="#path-105"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-108)" stroke-width="4.4928" xlink:href="#path-107"></use>
+                    <use class="windows" id="Rectangle-2-Copy-8" mask="url(#mask-110)" stroke-width="4.4928" xlink:href="#path-109"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-112)" stroke-width="4.4928" xlink:href="#path-111"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-114)" stroke-width="4.4928" xlink:href="#path-113"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-116)" stroke-width="4.4928" xlink:href="#path-115"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-118)" stroke-width="4.4928" xlink:href="#path-117"></use>
+                    <use class="windows" id="Rectangle-2-Copy-7" mask="url(#mask-120)" stroke-width="4.4928" xlink:href="#path-119"></use>
+                    <use class="windows" id="Rectangle-2-Copy-6" mask="url(#mask-122)" stroke-width="4.4928" xlink:href="#path-121"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-124)" stroke-width="4.4928" xlink:href="#path-123"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-126)" stroke-width="4.4928" xlink:href="#path-125"></use>
+                    <use class="windows" id="Rectangle-2-Copy-8" mask="url(#mask-128)" stroke-width="4.4928" xlink:href="#path-127"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-130)" stroke-width="4.4928" xlink:href="#path-129"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-132)" stroke-width="4.4928" xlink:href="#path-131"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-134)" stroke-width="4.4928" xlink:href="#path-133"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-136)" stroke-width="4.4928" xlink:href="#path-135"></use>
+                    <use class="windows" id="Rectangle-2-Copy-7" mask="url(#mask-138)" stroke-width="4.4928" xlink:href="#path-137"></use>
+                    <use class="windows" id="Rectangle-2-Copy-6" mask="url(#mask-140)" stroke-width="4.4928" xlink:href="#path-139"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-142)" stroke-width="4.4928" xlink:href="#path-141"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-144)" stroke-width="4.4928" xlink:href="#path-143"></use>
+                    <use class="windows" id="Rectangle-2-Copy-8" mask="url(#mask-146)" stroke-width="4.4928" xlink:href="#path-145"></use>
+                    <rect class="windows" id="Rectangle-2-Copy" stroke-width="2.9952" x="0.295622722" y="230.839179" width="36.6332749" height="138.097338"></rect>
                     <path d="M46.6168528,63.6330873 C46.6168528,63.6330873 46.3068056,80.0041164 40.6650056,86.9454751 C41.1645262,87.1702429 40.6650056,103.358626 40.6650056,103.358626 L37.6072916,103.358626 L37.6072916,120.570739 L52.5196754,120.570739 L52.5196754,63.7260977 L46.6168528,63.6330873 Z" id="Path-2" stroke-width="2.9952"></path>
                     <path d="M58.4347818,63.6330873 C58.4347818,63.6330873 58.744829,80.0041164 64.3866289,86.9454751 C63.8871084,87.1702429 64.3866289,103.358626 64.3866289,103.358626 L67.444343,103.358626 L67.444343,120.570739 L52.5319591,120.570739 L52.5319591,63.7260977 L58.4347818,63.6330873" id="Path-2-Copy" stroke-width="2.9952"></path>
-                    <use id="Rectangle-2-Copy-40" mask="url(#mask-148)" stroke-width="4.4928" xlink:href="#path-147"></use>
-                    <use id="Rectangle-2-Copy-39" mask="url(#mask-150)" stroke-width="4.4928" xlink:href="#path-149"></use>
-                    <use id="Rectangle-2-Copy-38" mask="url(#mask-152)" stroke-width="4.4928" xlink:href="#path-151"></use>
-                    <use id="Rectangle-2-Copy-37" mask="url(#mask-154)" stroke-width="4.4928" xlink:href="#path-153"></use>
-                    <use id="Rectangle-2-Copy-36" mask="url(#mask-156)" stroke-width="4.4928" xlink:href="#path-155"></use>
-                    <use id="Rectangle-2-Copy-35" mask="url(#mask-158)" stroke-width="4.4928" xlink:href="#path-157"></use>
-                    <use id="Rectangle-2-Copy-42" mask="url(#mask-160)" stroke-width="4.4928" xlink:href="#path-159"></use>
-                    <use id="Rectangle-2-Copy-38" mask="url(#mask-162)" stroke-width="4.4928" xlink:href="#path-161"></use>
-                    <use id="Rectangle-2-Copy-37" mask="url(#mask-164)" stroke-width="4.4928" xlink:href="#path-163"></use>
-                    <use id="Rectangle-2-Copy-36" mask="url(#mask-166)" stroke-width="4.4928" xlink:href="#path-165"></use>
-                    <use id="Rectangle-2-Copy-38" mask="url(#mask-168)" stroke-width="4.4928" xlink:href="#path-167"></use>
-                    <use id="Rectangle-2-Copy-37" mask="url(#mask-170)" stroke-width="4.4928" xlink:href="#path-169"></use>
-                    <use id="Rectangle-2-Copy-36" mask="url(#mask-172)" stroke-width="4.4928" xlink:href="#path-171"></use>
-                    <use id="Rectangle-2-Copy-38" mask="url(#mask-174)" stroke-width="4.4928" xlink:href="#path-173"></use>
-                    <use id="Rectangle-2-Copy-37" mask="url(#mask-176)" stroke-width="4.4928" xlink:href="#path-175"></use>
-                    <use id="Rectangle-2-Copy-36" mask="url(#mask-178)" stroke-width="4.4928" xlink:href="#path-177"></use>
-                    <use id="Rectangle-2-Copy-37" mask="url(#mask-180)" stroke-width="4.4928" xlink:href="#path-179"></use>
-                    <use id="Rectangle-2-Copy-40" mask="url(#mask-182)" stroke-width="4.4928" xlink:href="#path-181"></use>
-                    <use id="Rectangle-2-Copy-39" mask="url(#mask-184)" stroke-width="4.4928" xlink:href="#path-183"></use>
-                    <use id="Rectangle-2-Copy-38" mask="url(#mask-186)" stroke-width="4.4928" xlink:href="#path-185"></use>
-                    <use id="Rectangle-2-Copy-37" mask="url(#mask-188)" stroke-width="4.4928" xlink:href="#path-187"></use>
-                    <use id="Rectangle-2-Copy-36" mask="url(#mask-190)" stroke-width="4.4928" xlink:href="#path-189"></use>
-                    <use id="Rectangle-2-Copy-35" mask="url(#mask-192)" stroke-width="4.4928" xlink:href="#path-191"></use>
-                    <use id="Rectangle-2-Copy-42" mask="url(#mask-194)" stroke-width="4.4928" xlink:href="#path-193"></use>
+                    <use class="windows" id="Rectangle-2-Copy-40" mask="url(#mask-148)" stroke-width="4.4928" xlink:href="#path-147"></use>
+                    <use class="windows" id="Rectangle-2-Copy-39" mask="url(#mask-150)" stroke-width="4.4928" xlink:href="#path-149"></use>
+                    <use class="windows" id="Rectangle-2-Copy-38" mask="url(#mask-152)" stroke-width="4.4928" xlink:href="#path-151"></use>
+                    <use class="windows" id="Rectangle-2-Copy-37" mask="url(#mask-154)" stroke-width="4.4928" xlink:href="#path-153"></use>
+                    <use class="windows" id="Rectangle-2-Copy-36" mask="url(#mask-156)" stroke-width="4.4928" xlink:href="#path-155"></use>
+                    <use class="windows" id="Rectangle-2-Copy-35" mask="url(#mask-158)" stroke-width="4.4928" xlink:href="#path-157"></use>
+                    <use class="windows" id="Rectangle-2-Copy-42" mask="url(#mask-160)" stroke-width="4.4928" xlink:href="#path-159"></use>
+                    <use class="windows" id="Rectangle-2-Copy-38" mask="url(#mask-162)" stroke-width="4.4928" xlink:href="#path-161"></use>
+                    <use class="windows" id="Rectangle-2-Copy-37" mask="url(#mask-164)" stroke-width="4.4928" xlink:href="#path-163"></use>
+                    <use class="windows" id="Rectangle-2-Copy-36" mask="url(#mask-166)" stroke-width="4.4928" xlink:href="#path-165"></use>
+                    <use class="windows" id="Rectangle-2-Copy-38" mask="url(#mask-168)" stroke-width="4.4928" xlink:href="#path-167"></use>
+                    <use class="windows" id="Rectangle-2-Copy-37" mask="url(#mask-170)" stroke-width="4.4928" xlink:href="#path-169"></use>
+                    <use class="windows" id="Rectangle-2-Copy-36" mask="url(#mask-172)" stroke-width="4.4928" xlink:href="#path-171"></use>
+                    <use class="windows" id="Rectangle-2-Copy-38" mask="url(#mask-174)" stroke-width="4.4928" xlink:href="#path-173"></use>
+                    <use class="windows" id="Rectangle-2-Copy-37" mask="url(#mask-176)" stroke-width="4.4928" xlink:href="#path-175"></use>
+                    <use class="windows" id="Rectangle-2-Copy-36" mask="url(#mask-178)" stroke-width="4.4928" xlink:href="#path-177"></use>
+                    <use class="windows" id="Rectangle-2-Copy-37" mask="url(#mask-180)" stroke-width="4.4928" xlink:href="#path-179"></use>
+                    <use class="windows" id="Rectangle-2-Copy-40" mask="url(#mask-182)" stroke-width="4.4928" xlink:href="#path-181"></use>
+                    <use class="windows" id="Rectangle-2-Copy-39" mask="url(#mask-184)" stroke-width="4.4928" xlink:href="#path-183"></use>
+                    <use class="windows" id="Rectangle-2-Copy-38" mask="url(#mask-186)" stroke-width="4.4928" xlink:href="#path-185"></use>
+                    <use class="windows" id="Rectangle-2-Copy-37" mask="url(#mask-188)" stroke-width="4.4928" xlink:href="#path-187"></use>
+                    <use class="windows" id="Rectangle-2-Copy-36" mask="url(#mask-190)" stroke-width="4.4928" xlink:href="#path-189"></use>
+                    <use class="windows" id="Rectangle-2-Copy-35" mask="url(#mask-192)" stroke-width="4.4928" xlink:href="#path-191"></use>
+                    <use class="windows" id="Rectangle-2-Copy-42" mask="url(#mask-194)" stroke-width="4.4928" xlink:href="#path-193"></use>
                 </g>
                 <g id="building1" opacity="0.75" transform="translate(88.383610, 227.806997)" stroke="#DCEDC8">
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-196)" stroke-width="4.4928" xlink:href="#path-195"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-198)" stroke-width="4.4928" xlink:href="#path-197"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-200)" stroke-width="4.4928" xlink:href="#path-199"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-202)" stroke-width="4.4928" xlink:href="#path-201"></use>
-                    <use id="Rectangle-2-Copy-7" mask="url(#mask-204)" stroke-width="4.4928" xlink:href="#path-203"></use>
-                    <use id="Rectangle-2-Copy-6" mask="url(#mask-206)" stroke-width="4.4928" xlink:href="#path-205"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-208)" stroke-width="4.4928" xlink:href="#path-207"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-210)" stroke-width="4.4928" xlink:href="#path-209"></use>
-                    <use id="Rectangle-2-Copy-8" mask="url(#mask-212)" stroke-width="4.4928" xlink:href="#path-211"></use>
-                    <use id="Rectangle-2-Copy-34" mask="url(#mask-214)" stroke-width="4.4928" xlink:href="#path-213"></use>
-                    <use id="Rectangle-2-Copy-33" mask="url(#mask-216)" stroke-width="4.4928" xlink:href="#path-215"></use>
-                    <use id="Rectangle-2-Copy-32" mask="url(#mask-218)" stroke-width="4.4928" xlink:href="#path-217"></use>
-                    <use id="Rectangle-2-Copy-31" mask="url(#mask-220)" stroke-width="4.4928" xlink:href="#path-219"></use>
-                    <use id="Rectangle-2-Copy-30" mask="url(#mask-222)" stroke-width="4.4928" xlink:href="#path-221"></use>
-                    <use id="Rectangle-2-Copy-29" mask="url(#mask-224)" stroke-width="4.4928" xlink:href="#path-223"></use>
-                    <use id="Rectangle-2-Copy-28" mask="url(#mask-226)" stroke-width="4.4928" xlink:href="#path-225"></use>
-                    <use id="Rectangle-2-Copy-27" mask="url(#mask-228)" stroke-width="4.4928" xlink:href="#path-227"></use>
-                    <use id="Rectangle-2-Copy-26" mask="url(#mask-230)" stroke-width="4.4928" xlink:href="#path-229"></use>
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-232)" stroke-width="4.4928" xlink:href="#path-231"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-234)" stroke-width="4.4928" xlink:href="#path-233"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-236)" stroke-width="4.4928" xlink:href="#path-235"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-238)" stroke-width="4.4928" xlink:href="#path-237"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-240)" stroke-width="4.4928" xlink:href="#path-239"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-242)" stroke-width="4.4928" xlink:href="#path-241"></use>
-                    <use id="Rectangle-2-Copy-16" mask="url(#mask-244)" stroke-width="4.4928" xlink:href="#path-243"></use>
-                    <use id="Rectangle-2-Copy-15" mask="url(#mask-246)" stroke-width="4.4928" xlink:href="#path-245"></use>
-                    <use id="Rectangle-2-Copy-14" mask="url(#mask-248)" stroke-width="4.4928" xlink:href="#path-247"></use>
-                    <use id="Rectangle-2-Copy-13" mask="url(#mask-250)" stroke-width="4.4928" xlink:href="#path-249"></use>
-                    <use id="Rectangle-2-Copy-12" mask="url(#mask-252)" stroke-width="4.4928" xlink:href="#path-251"></use>
-                    <use id="Rectangle-2-Copy-11" mask="url(#mask-254)" stroke-width="4.4928" xlink:href="#path-253"></use>
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-256)" stroke-width="4.4928" xlink:href="#path-255"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-258)" stroke-width="4.4928" xlink:href="#path-257"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-260)" stroke-width="4.4928" xlink:href="#path-259"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-262)" stroke-width="4.4928" xlink:href="#path-261"></use>
-                    <use id="Rectangle-2-Copy-7" mask="url(#mask-264)" stroke-width="4.4928" xlink:href="#path-263"></use>
-                    <use id="Rectangle-2-Copy-6" mask="url(#mask-266)" stroke-width="4.4928" xlink:href="#path-265"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-268)" stroke-width="4.4928" xlink:href="#path-267"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-270)" stroke-width="4.4928" xlink:href="#path-269"></use>
-                    <use id="Rectangle-2-Copy-8" mask="url(#mask-272)" stroke-width="4.4928" xlink:href="#path-271"></use>
-                    <use id="Rectangle-2-Copy-25" mask="url(#mask-274)" stroke-width="4.4928" xlink:href="#path-273"></use>
-                    <use id="Rectangle-2-Copy-24" mask="url(#mask-276)" stroke-width="4.4928" xlink:href="#path-275"></use>
-                    <use id="Rectangle-2-Copy-23" mask="url(#mask-278)" stroke-width="4.4928" xlink:href="#path-277"></use>
-                    <use id="Rectangle-2-Copy-22" mask="url(#mask-280)" stroke-width="4.4928" xlink:href="#path-279"></use>
-                    <use id="Rectangle-2-Copy-21" mask="url(#mask-282)" stroke-width="4.4928" xlink:href="#path-281"></use>
-                    <use id="Rectangle-2-Copy-20" mask="url(#mask-284)" stroke-width="4.4928" xlink:href="#path-283"></use>
-                    <use id="Rectangle-2-Copy-19" mask="url(#mask-286)" stroke-width="4.4928" xlink:href="#path-285"></use>
-                    <use id="Rectangle-2-Copy-18" mask="url(#mask-288)" stroke-width="4.4928" xlink:href="#path-287"></use>
-                    <use id="Rectangle-2-Copy-17" mask="url(#mask-290)" stroke-width="4.4928" xlink:href="#path-289"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-196)" stroke-width="4.4928" xlink:href="#path-195"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-198)" stroke-width="4.4928" xlink:href="#path-197"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-200)" stroke-width="4.4928" xlink:href="#path-199"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-202)" stroke-width="4.4928" xlink:href="#path-201"></use>
+                    <use class="windows" id="Rectangle-2-Copy-7" mask="url(#mask-204)" stroke-width="4.4928" xlink:href="#path-203"></use>
+                    <use class="windows" id="Rectangle-2-Copy-6" mask="url(#mask-206)" stroke-width="4.4928" xlink:href="#path-205"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-208)" stroke-width="4.4928" xlink:href="#path-207"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-210)" stroke-width="4.4928" xlink:href="#path-209"></use>
+                    <use class="windows" id="Rectangle-2-Copy-8" mask="url(#mask-212)" stroke-width="4.4928" xlink:href="#path-211"></use>
+                    <use class="windows" id="Rectangle-2-Copy-34" mask="url(#mask-214)" stroke-width="4.4928" xlink:href="#path-213"></use>
+                    <use class="windows" id="Rectangle-2-Copy-33" mask="url(#mask-216)" stroke-width="4.4928" xlink:href="#path-215"></use>
+                    <use class="windows" id="Rectangle-2-Copy-32" mask="url(#mask-218)" stroke-width="4.4928" xlink:href="#path-217"></use>
+                    <use class="windows" id="Rectangle-2-Copy-31" mask="url(#mask-220)" stroke-width="4.4928" xlink:href="#path-219"></use>
+                    <use class="windows" id="Rectangle-2-Copy-30" mask="url(#mask-222)" stroke-width="4.4928" xlink:href="#path-221"></use>
+                    <use class="windows" id="Rectangle-2-Copy-29" mask="url(#mask-224)" stroke-width="4.4928" xlink:href="#path-223"></use>
+                    <use class="windows" id="Rectangle-2-Copy-28" mask="url(#mask-226)" stroke-width="4.4928" xlink:href="#path-225"></use>
+                    <use class="windows" id="Rectangle-2-Copy-27" mask="url(#mask-228)" stroke-width="4.4928" xlink:href="#path-227"></use>
+                    <use class="windows" id="Rectangle-2-Copy-26" mask="url(#mask-230)" stroke-width="4.4928" xlink:href="#path-229"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-232)" stroke-width="4.4928" xlink:href="#path-231"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-234)" stroke-width="4.4928" xlink:href="#path-233"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-236)" stroke-width="4.4928" xlink:href="#path-235"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-238)" stroke-width="4.4928" xlink:href="#path-237"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-240)" stroke-width="4.4928" xlink:href="#path-239"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-242)" stroke-width="4.4928" xlink:href="#path-241"></use>
+                    <use class="windows" id="Rectangle-2-Copy-16" mask="url(#mask-244)" stroke-width="4.4928" xlink:href="#path-243"></use>
+                    <use class="windows" id="Rectangle-2-Copy-15" mask="url(#mask-246)" stroke-width="4.4928" xlink:href="#path-245"></use>
+                    <use class="windows" id="Rectangle-2-Copy-14" mask="url(#mask-248)" stroke-width="4.4928" xlink:href="#path-247"></use>
+                    <use class="windows" id="Rectangle-2-Copy-13" mask="url(#mask-250)" stroke-width="4.4928" xlink:href="#path-249"></use>
+                    <use class="windows" id="Rectangle-2-Copy-12" mask="url(#mask-252)" stroke-width="4.4928" xlink:href="#path-251"></use>
+                    <use class="windows" id="Rectangle-2-Copy-11" mask="url(#mask-254)" stroke-width="4.4928" xlink:href="#path-253"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-256)" stroke-width="4.4928" xlink:href="#path-255"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-258)" stroke-width="4.4928" xlink:href="#path-257"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-260)" stroke-width="4.4928" xlink:href="#path-259"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-262)" stroke-width="4.4928" xlink:href="#path-261"></use>
+                    <use class="windows" id="Rectangle-2-Copy-7" mask="url(#mask-264)" stroke-width="4.4928" xlink:href="#path-263"></use>
+                    <use class="windows" id="Rectangle-2-Copy-6" mask="url(#mask-266)" stroke-width="4.4928" xlink:href="#path-265"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-268)" stroke-width="4.4928" xlink:href="#path-267"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-270)" stroke-width="4.4928" xlink:href="#path-269"></use>
+                    <use class="windows" id="Rectangle-2-Copy-8" mask="url(#mask-272)" stroke-width="4.4928" xlink:href="#path-271"></use>
+                    <use class="windows" id="Rectangle-2-Copy-25" mask="url(#mask-274)" stroke-width="4.4928" xlink:href="#path-273"></use>
+                    <use class="windows" id="Rectangle-2-Copy-24" mask="url(#mask-276)" stroke-width="4.4928" xlink:href="#path-275"></use>
+                    <use class="windows" id="Rectangle-2-Copy-23" mask="url(#mask-278)" stroke-width="4.4928" xlink:href="#path-277"></use>
+                    <use class="windows" id="Rectangle-2-Copy-22" mask="url(#mask-280)" stroke-width="4.4928" xlink:href="#path-279"></use>
+                    <use class="windows" id="Rectangle-2-Copy-21" mask="url(#mask-282)" stroke-width="4.4928" xlink:href="#path-281"></use>
+                    <use class="windows" id="Rectangle-2-Copy-20" mask="url(#mask-284)" stroke-width="4.4928" xlink:href="#path-283"></use>
+                    <use class="windows" id="Rectangle-2-Copy-19" mask="url(#mask-286)" stroke-width="4.4928" xlink:href="#path-285"></use>
+                    <use class="windows" id="Rectangle-2-Copy-18" mask="url(#mask-288)" stroke-width="4.4928" xlink:href="#path-287"></use>
+                    <use class="windows" id="Rectangle-2-Copy-17" mask="url(#mask-290)" stroke-width="4.4928" xlink:href="#path-289"></use>
                     <use id="Rectangle-6" mask="url(#mask-292)" stroke-width="5.9904" xlink:href="#path-291"></use>
                     <use id="Rectangle-6-Copy" mask="url(#mask-294)" stroke-width="5.9904" xlink:href="#path-293"></use>
                 </g>
                 <g id="building1-copy-3" opacity="0.75" transform="translate(466.676504, 228.607426)" stroke="#DCEDC8">
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-296)" stroke-width="4.4928" xlink:href="#path-295"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-298)" stroke-width="4.4928" xlink:href="#path-297"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-300)" stroke-width="4.4928" xlink:href="#path-299"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-302)" stroke-width="4.4928" xlink:href="#path-301"></use>
-                    <use id="Rectangle-2-Copy-7" mask="url(#mask-304)" stroke-width="4.4928" xlink:href="#path-303"></use>
-                    <use id="Rectangle-2-Copy-6" mask="url(#mask-306)" stroke-width="4.4928" xlink:href="#path-305"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-308)" stroke-width="4.4928" xlink:href="#path-307"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-310)" stroke-width="4.4928" xlink:href="#path-309"></use>
-                    <use id="Rectangle-2-Copy-8" mask="url(#mask-312)" stroke-width="4.4928" xlink:href="#path-311"></use>
-                    <use id="Rectangle-2-Copy-34" mask="url(#mask-314)" stroke-width="4.4928" xlink:href="#path-313"></use>
-                    <use id="Rectangle-2-Copy-33" mask="url(#mask-316)" stroke-width="4.4928" xlink:href="#path-315"></use>
-                    <use id="Rectangle-2-Copy-32" mask="url(#mask-318)" stroke-width="4.4928" xlink:href="#path-317"></use>
-                    <use id="Rectangle-2-Copy-31" mask="url(#mask-320)" stroke-width="4.4928" xlink:href="#path-319"></use>
-                    <use id="Rectangle-2-Copy-30" mask="url(#mask-322)" stroke-width="4.4928" xlink:href="#path-321"></use>
-                    <use id="Rectangle-2-Copy-29" mask="url(#mask-324)" stroke-width="4.4928" xlink:href="#path-323"></use>
-                    <use id="Rectangle-2-Copy-28" mask="url(#mask-326)" stroke-width="4.4928" xlink:href="#path-325"></use>
-                    <use id="Rectangle-2-Copy-27" mask="url(#mask-328)" stroke-width="4.4928" xlink:href="#path-327"></use>
-                    <use id="Rectangle-2-Copy-26" mask="url(#mask-330)" stroke-width="4.4928" xlink:href="#path-329"></use>
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-332)" stroke-width="4.4928" xlink:href="#path-331"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-334)" stroke-width="4.4928" xlink:href="#path-333"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-336)" stroke-width="4.4928" xlink:href="#path-335"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-338)" stroke-width="4.4928" xlink:href="#path-337"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-340)" stroke-width="4.4928" xlink:href="#path-339"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-342)" stroke-width="4.4928" xlink:href="#path-341"></use>
-                    <use id="Rectangle-2-Copy-16" mask="url(#mask-344)" stroke-width="4.4928" xlink:href="#path-343"></use>
-                    <use id="Rectangle-2-Copy-15" mask="url(#mask-346)" stroke-width="4.4928" xlink:href="#path-345"></use>
-                    <use id="Rectangle-2-Copy-14" mask="url(#mask-348)" stroke-width="4.4928" xlink:href="#path-347"></use>
-                    <use id="Rectangle-2-Copy-13" mask="url(#mask-350)" stroke-width="4.4928" xlink:href="#path-349"></use>
-                    <use id="Rectangle-2-Copy-12" mask="url(#mask-352)" stroke-width="4.4928" xlink:href="#path-351"></use>
-                    <use id="Rectangle-2-Copy-11" mask="url(#mask-354)" stroke-width="4.4928" xlink:href="#path-353"></use>
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-356)" stroke-width="4.4928" xlink:href="#path-355"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-358)" stroke-width="4.4928" xlink:href="#path-357"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-360)" stroke-width="4.4928" xlink:href="#path-359"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-362)" stroke-width="4.4928" xlink:href="#path-361"></use>
-                    <use id="Rectangle-2-Copy-7" mask="url(#mask-364)" stroke-width="4.4928" xlink:href="#path-363"></use>
-                    <use id="Rectangle-2-Copy-6" mask="url(#mask-366)" stroke-width="4.4928" xlink:href="#path-365"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-368)" stroke-width="4.4928" xlink:href="#path-367"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-370)" stroke-width="4.4928" xlink:href="#path-369"></use>
-                    <use id="Rectangle-2-Copy-8" mask="url(#mask-372)" stroke-width="4.4928" xlink:href="#path-371"></use>
-                    <use id="Rectangle-2-Copy-25" mask="url(#mask-374)" stroke-width="4.4928" xlink:href="#path-373"></use>
-                    <use id="Rectangle-2-Copy-24" mask="url(#mask-376)" stroke-width="4.4928" xlink:href="#path-375"></use>
-                    <use id="Rectangle-2-Copy-23" mask="url(#mask-378)" stroke-width="4.4928" xlink:href="#path-377"></use>
-                    <use id="Rectangle-2-Copy-22" mask="url(#mask-380)" stroke-width="4.4928" xlink:href="#path-379"></use>
-                    <use id="Rectangle-2-Copy-21" mask="url(#mask-382)" stroke-width="4.4928" xlink:href="#path-381"></use>
-                    <use id="Rectangle-2-Copy-20" mask="url(#mask-384)" stroke-width="4.4928" xlink:href="#path-383"></use>
-                    <use id="Rectangle-2-Copy-19" mask="url(#mask-386)" stroke-width="4.4928" xlink:href="#path-385"></use>
-                    <use id="Rectangle-2-Copy-18" mask="url(#mask-388)" stroke-width="4.4928" xlink:href="#path-387"></use>
-                    <use id="Rectangle-2-Copy-17" mask="url(#mask-390)" stroke-width="4.4928" xlink:href="#path-389"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-296)" stroke-width="4.4928" xlink:href="#path-295"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-298)" stroke-width="4.4928" xlink:href="#path-297"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-300)" stroke-width="4.4928" xlink:href="#path-299"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-302)" stroke-width="4.4928" xlink:href="#path-301"></use>
+                    <use class="windows" id="Rectangle-2-Copy-7" mask="url(#mask-304)" stroke-width="4.4928" xlink:href="#path-303"></use>
+                    <use class="windows" id="Rectangle-2-Copy-6" mask="url(#mask-306)" stroke-width="4.4928" xlink:href="#path-305"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-308)" stroke-width="4.4928" xlink:href="#path-307"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-310)" stroke-width="4.4928" xlink:href="#path-309"></use>
+                    <use class="windows" id="Rectangle-2-Copy-8" mask="url(#mask-312)" stroke-width="4.4928" xlink:href="#path-311"></use>
+                    <use class="windows" id="Rectangle-2-Copy-34" mask="url(#mask-314)" stroke-width="4.4928" xlink:href="#path-313"></use>
+                    <use class="windows" id="Rectangle-2-Copy-33" mask="url(#mask-316)" stroke-width="4.4928" xlink:href="#path-315"></use>
+                    <use class="windows" id="Rectangle-2-Copy-32" mask="url(#mask-318)" stroke-width="4.4928" xlink:href="#path-317"></use>
+                    <use class="windows" id="Rectangle-2-Copy-31" mask="url(#mask-320)" stroke-width="4.4928" xlink:href="#path-319"></use>
+                    <use class="windows" id="Rectangle-2-Copy-30" mask="url(#mask-322)" stroke-width="4.4928" xlink:href="#path-321"></use>
+                    <use class="windows" id="Rectangle-2-Copy-29" mask="url(#mask-324)" stroke-width="4.4928" xlink:href="#path-323"></use>
+                    <use class="windows" id="Rectangle-2-Copy-28" mask="url(#mask-326)" stroke-width="4.4928" xlink:href="#path-325"></use>
+                    <use class="windows" id="Rectangle-2-Copy-27" mask="url(#mask-328)" stroke-width="4.4928" xlink:href="#path-327"></use>
+                    <use class="windows" id="Rectangle-2-Copy-26" mask="url(#mask-330)" stroke-width="4.4928" xlink:href="#path-329"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-332)" stroke-width="4.4928" xlink:href="#path-331"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-334)" stroke-width="4.4928" xlink:href="#path-333"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-336)" stroke-width="4.4928" xlink:href="#path-335"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-338)" stroke-width="4.4928" xlink:href="#path-337"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-340)" stroke-width="4.4928" xlink:href="#path-339"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-342)" stroke-width="4.4928" xlink:href="#path-341"></use>
+                    <use class="windows" id="Rectangle-2-Copy-16" mask="url(#mask-344)" stroke-width="4.4928" xlink:href="#path-343"></use>
+                    <use class="windows" id="Rectangle-2-Copy-15" mask="url(#mask-346)" stroke-width="4.4928" xlink:href="#path-345"></use>
+                    <use class="windows" id="Rectangle-2-Copy-14" mask="url(#mask-348)" stroke-width="4.4928" xlink:href="#path-347"></use>
+                    <use class="windows" id="Rectangle-2-Copy-13" mask="url(#mask-350)" stroke-width="4.4928" xlink:href="#path-349"></use>
+                    <use class="windows" id="Rectangle-2-Copy-12" mask="url(#mask-352)" stroke-width="4.4928" xlink:href="#path-351"></use>
+                    <use class="windows" id="Rectangle-2-Copy-11" mask="url(#mask-354)" stroke-width="4.4928" xlink:href="#path-353"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-356)" stroke-width="4.4928" xlink:href="#path-355"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-358)" stroke-width="4.4928" xlink:href="#path-357"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-360)" stroke-width="4.4928" xlink:href="#path-359"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-362)" stroke-width="4.4928" xlink:href="#path-361"></use>
+                    <use class="windows" id="Rectangle-2-Copy-7" mask="url(#mask-364)" stroke-width="4.4928" xlink:href="#path-363"></use>
+                    <use class="windows" id="Rectangle-2-Copy-6" mask="url(#mask-366)" stroke-width="4.4928" xlink:href="#path-365"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-368)" stroke-width="4.4928" xlink:href="#path-367"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-370)" stroke-width="4.4928" xlink:href="#path-369"></use>
+                    <use class="windows" id="Rectangle-2-Copy-8" mask="url(#mask-372)" stroke-width="4.4928" xlink:href="#path-371"></use>
+                    <use class="windows" id="Rectangle-2-Copy-25" mask="url(#mask-374)" stroke-width="4.4928" xlink:href="#path-373"></use>
+                    <use class="windows" id="Rectangle-2-Copy-24" mask="url(#mask-376)" stroke-width="4.4928" xlink:href="#path-375"></use>
+                    <use class="windows" id="Rectangle-2-Copy-23" mask="url(#mask-378)" stroke-width="4.4928" xlink:href="#path-377"></use>
+                    <use class="windows" id="Rectangle-2-Copy-22" mask="url(#mask-380)" stroke-width="4.4928" xlink:href="#path-379"></use>
+                    <use class="windows" id="Rectangle-2-Copy-21" mask="url(#mask-382)" stroke-width="4.4928" xlink:href="#path-381"></use>
+                    <use class="windows" id="Rectangle-2-Copy-20" mask="url(#mask-384)" stroke-width="4.4928" xlink:href="#path-383"></use>
+                    <use class="windows" id="Rectangle-2-Copy-19" mask="url(#mask-386)" stroke-width="4.4928" xlink:href="#path-385"></use>
+                    <use class="windows" id="Rectangle-2-Copy-18" mask="url(#mask-388)" stroke-width="4.4928" xlink:href="#path-387"></use>
+                    <use class="windows" id="Rectangle-2-Copy-17" mask="url(#mask-390)" stroke-width="4.4928" xlink:href="#path-389"></use>
                     <use id="Rectangle-6" mask="url(#mask-392)" stroke-width="5.9904" xlink:href="#path-391"></use>
                     <use id="Rectangle-6-Copy" mask="url(#mask-394)" stroke-width="5.9904" xlink:href="#path-393"></use>
                 </g>
                 <g id="building1-copy" opacity="0.5" transform="translate(162.011336, 299.035492)" stroke="#DCEDC8">
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-396)" stroke-width="2.2464" xlink:href="#path-395"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-398)" stroke-width="2.2464" xlink:href="#path-397"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-400)" stroke-width="2.2464" xlink:href="#path-399"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-402)" stroke-width="2.2464" xlink:href="#path-401"></use>
-                    <use id="Rectangle-2-Copy-7" mask="url(#mask-404)" stroke-width="2.2464" xlink:href="#path-403"></use>
-                    <use id="Rectangle-2-Copy-6" mask="url(#mask-406)" stroke-width="2.2464" xlink:href="#path-405"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-408)" stroke-width="2.2464" xlink:href="#path-407"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-410)" stroke-width="2.2464" xlink:href="#path-409"></use>
-                    <use id="Rectangle-2-Copy-8" mask="url(#mask-412)" stroke-width="2.2464" xlink:href="#path-411"></use>
-                    <use id="Rectangle-2-Copy-34" mask="url(#mask-414)" stroke-width="2.2464" xlink:href="#path-413"></use>
-                    <use id="Rectangle-2-Copy-33" mask="url(#mask-416)" stroke-width="2.2464" xlink:href="#path-415"></use>
-                    <use id="Rectangle-2-Copy-32" mask="url(#mask-418)" stroke-width="2.2464" xlink:href="#path-417"></use>
-                    <use id="Rectangle-2-Copy-31" mask="url(#mask-420)" stroke-width="2.2464" xlink:href="#path-419"></use>
-                    <use id="Rectangle-2-Copy-30" mask="url(#mask-422)" stroke-width="2.2464" xlink:href="#path-421"></use>
-                    <use id="Rectangle-2-Copy-29" mask="url(#mask-424)" stroke-width="2.2464" xlink:href="#path-423"></use>
-                    <use id="Rectangle-2-Copy-28" mask="url(#mask-426)" stroke-width="2.2464" xlink:href="#path-425"></use>
-                    <use id="Rectangle-2-Copy-27" mask="url(#mask-428)" stroke-width="2.2464" xlink:href="#path-427"></use>
-                    <use id="Rectangle-2-Copy-26" mask="url(#mask-430)" stroke-width="2.2464" xlink:href="#path-429"></use>
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-432)" stroke-width="2.2464" xlink:href="#path-431"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-434)" stroke-width="2.2464" xlink:href="#path-433"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-436)" stroke-width="2.2464" xlink:href="#path-435"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-438)" stroke-width="2.2464" xlink:href="#path-437"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-440)" stroke-width="2.2464" xlink:href="#path-439"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-442)" stroke-width="2.2464" xlink:href="#path-441"></use>
-                    <use id="Rectangle-2-Copy-16" mask="url(#mask-444)" stroke-width="2.2464" xlink:href="#path-443"></use>
-                    <use id="Rectangle-2-Copy-15" mask="url(#mask-446)" stroke-width="2.2464" xlink:href="#path-445"></use>
-                    <use id="Rectangle-2-Copy-14" mask="url(#mask-448)" stroke-width="2.2464" xlink:href="#path-447"></use>
-                    <use id="Rectangle-2-Copy-13" mask="url(#mask-450)" stroke-width="2.2464" xlink:href="#path-449"></use>
-                    <use id="Rectangle-2-Copy-12" mask="url(#mask-452)" stroke-width="2.2464" xlink:href="#path-451"></use>
-                    <use id="Rectangle-2-Copy-11" mask="url(#mask-454)" stroke-width="2.2464" xlink:href="#path-453"></use>
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-456)" stroke-width="2.2464" xlink:href="#path-455"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-458)" stroke-width="2.2464" xlink:href="#path-457"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-460)" stroke-width="2.2464" xlink:href="#path-459"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-462)" stroke-width="2.2464" xlink:href="#path-461"></use>
-                    <use id="Rectangle-2-Copy-7" mask="url(#mask-464)" stroke-width="2.2464" xlink:href="#path-463"></use>
-                    <use id="Rectangle-2-Copy-6" mask="url(#mask-466)" stroke-width="2.2464" xlink:href="#path-465"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-468)" stroke-width="2.2464" xlink:href="#path-467"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-470)" stroke-width="2.2464" xlink:href="#path-469"></use>
-                    <use id="Rectangle-2-Copy-8" mask="url(#mask-472)" stroke-width="2.2464" xlink:href="#path-471"></use>
-                    <use id="Rectangle-2-Copy-25" mask="url(#mask-474)" stroke-width="2.2464" xlink:href="#path-473"></use>
-                    <use id="Rectangle-2-Copy-24" mask="url(#mask-476)" stroke-width="2.2464" xlink:href="#path-475"></use>
-                    <use id="Rectangle-2-Copy-23" mask="url(#mask-478)" stroke-width="2.2464" xlink:href="#path-477"></use>
-                    <use id="Rectangle-2-Copy-22" mask="url(#mask-480)" stroke-width="2.2464" xlink:href="#path-479"></use>
-                    <use id="Rectangle-2-Copy-21" mask="url(#mask-482)" stroke-width="2.2464" xlink:href="#path-481"></use>
-                    <use id="Rectangle-2-Copy-20" mask="url(#mask-484)" stroke-width="2.2464" xlink:href="#path-483"></use>
-                    <use id="Rectangle-2-Copy-19" mask="url(#mask-486)" stroke-width="2.2464" xlink:href="#path-485"></use>
-                    <use id="Rectangle-2-Copy-18" mask="url(#mask-488)" stroke-width="2.2464" xlink:href="#path-487"></use>
-                    <use id="Rectangle-2-Copy-17" mask="url(#mask-490)" stroke-width="2.2464" xlink:href="#path-489"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-396)" stroke-width="2.2464" xlink:href="#path-395"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-398)" stroke-width="2.2464" xlink:href="#path-397"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-400)" stroke-width="2.2464" xlink:href="#path-399"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-402)" stroke-width="2.2464" xlink:href="#path-401"></use>
+                    <use class="windows" id="Rectangle-2-Copy-7" mask="url(#mask-404)" stroke-width="2.2464" xlink:href="#path-403"></use>
+                    <use class="windows" id="Rectangle-2-Copy-6" mask="url(#mask-406)" stroke-width="2.2464" xlink:href="#path-405"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-408)" stroke-width="2.2464" xlink:href="#path-407"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-410)" stroke-width="2.2464" xlink:href="#path-409"></use>
+                    <use class="windows" id="Rectangle-2-Copy-8" mask="url(#mask-412)" stroke-width="2.2464" xlink:href="#path-411"></use>
+                    <use class="windows" id="Rectangle-2-Copy-34" mask="url(#mask-414)" stroke-width="2.2464" xlink:href="#path-413"></use>
+                    <use class="windows" id="Rectangle-2-Copy-33" mask="url(#mask-416)" stroke-width="2.2464" xlink:href="#path-415"></use>
+                    <use class="windows" id="Rectangle-2-Copy-32" mask="url(#mask-418)" stroke-width="2.2464" xlink:href="#path-417"></use>
+                    <use class="windows" id="Rectangle-2-Copy-31" mask="url(#mask-420)" stroke-width="2.2464" xlink:href="#path-419"></use>
+                    <use class="windows" id="Rectangle-2-Copy-30" mask="url(#mask-422)" stroke-width="2.2464" xlink:href="#path-421"></use>
+                    <use class="windows" id="Rectangle-2-Copy-29" mask="url(#mask-424)" stroke-width="2.2464" xlink:href="#path-423"></use>
+                    <use class="windows" id="Rectangle-2-Copy-28" mask="url(#mask-426)" stroke-width="2.2464" xlink:href="#path-425"></use>
+                    <use class="windows" id="Rectangle-2-Copy-27" mask="url(#mask-428)" stroke-width="2.2464" xlink:href="#path-427"></use>
+                    <use class="windows" id="Rectangle-2-Copy-26" mask="url(#mask-430)" stroke-width="2.2464" xlink:href="#path-429"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-432)" stroke-width="2.2464" xlink:href="#path-431"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-434)" stroke-width="2.2464" xlink:href="#path-433"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-436)" stroke-width="2.2464" xlink:href="#path-435"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-438)" stroke-width="2.2464" xlink:href="#path-437"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-440)" stroke-width="2.2464" xlink:href="#path-439"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-442)" stroke-width="2.2464" xlink:href="#path-441"></use>
+                    <use class="windows" id="Rectangle-2-Copy-16" mask="url(#mask-444)" stroke-width="2.2464" xlink:href="#path-443"></use>
+                    <use class="windows" id="Rectangle-2-Copy-15" mask="url(#mask-446)" stroke-width="2.2464" xlink:href="#path-445"></use>
+                    <use class="windows" id="Rectangle-2-Copy-14" mask="url(#mask-448)" stroke-width="2.2464" xlink:href="#path-447"></use>
+                    <use class="windows" id="Rectangle-2-Copy-13" mask="url(#mask-450)" stroke-width="2.2464" xlink:href="#path-449"></use>
+                    <use class="windows" id="Rectangle-2-Copy-12" mask="url(#mask-452)" stroke-width="2.2464" xlink:href="#path-451"></use>
+                    <use class="windows" id="Rectangle-2-Copy-11" mask="url(#mask-454)" stroke-width="2.2464" xlink:href="#path-453"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-456)" stroke-width="2.2464" xlink:href="#path-455"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-458)" stroke-width="2.2464" xlink:href="#path-457"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-460)" stroke-width="2.2464" xlink:href="#path-459"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-462)" stroke-width="2.2464" xlink:href="#path-461"></use>
+                    <use class="windows" id="Rectangle-2-Copy-7" mask="url(#mask-464)" stroke-width="2.2464" xlink:href="#path-463"></use>
+                    <use class="windows" id="Rectangle-2-Copy-6" mask="url(#mask-466)" stroke-width="2.2464" xlink:href="#path-465"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-468)" stroke-width="2.2464" xlink:href="#path-467"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-470)" stroke-width="2.2464" xlink:href="#path-469"></use>
+                    <use class="windows" id="Rectangle-2-Copy-8" mask="url(#mask-472)" stroke-width="2.2464" xlink:href="#path-471"></use>
+                    <use class="windows" id="Rectangle-2-Copy-25" mask="url(#mask-474)" stroke-width="2.2464" xlink:href="#path-473"></use>
+                    <use class="windows" id="Rectangle-2-Copy-24" mask="url(#mask-476)" stroke-width="2.2464" xlink:href="#path-475"></use>
+                    <use class="windows" id="Rectangle-2-Copy-23" mask="url(#mask-478)" stroke-width="2.2464" xlink:href="#path-477"></use>
+                    <use class="windows" id="Rectangle-2-Copy-22" mask="url(#mask-480)" stroke-width="2.2464" xlink:href="#path-479"></use>
+                    <use class="windows" id="Rectangle-2-Copy-21" mask="url(#mask-482)" stroke-width="2.2464" xlink:href="#path-481"></use>
+                    <use class="windows" id="Rectangle-2-Copy-20" mask="url(#mask-484)" stroke-width="2.2464" xlink:href="#path-483"></use>
+                    <use class="windows" id="Rectangle-2-Copy-19" mask="url(#mask-486)" stroke-width="2.2464" xlink:href="#path-485"></use>
+                    <use class="windows" id="Rectangle-2-Copy-18" mask="url(#mask-488)" stroke-width="2.2464" xlink:href="#path-487"></use>
+                    <use class="windows" id="Rectangle-2-Copy-17" mask="url(#mask-490)" stroke-width="2.2464" xlink:href="#path-489"></use>
                     <use id="Rectangle-6" mask="url(#mask-492)" stroke-width="2.9952" xlink:href="#path-491"></use>
                     <use id="Rectangle-6-Copy" mask="url(#mask-494)" stroke-width="2.9952" xlink:href="#path-493"></use>
                 </g>
                 <g id="building1-copy-4" opacity="0.5" transform="translate(546.806992, 300.636351)" stroke="#DCEDC8">
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-496)" stroke-width="2.2464" xlink:href="#path-495"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-498)" stroke-width="2.2464" xlink:href="#path-497"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-500)" stroke-width="2.2464" xlink:href="#path-499"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-502)" stroke-width="2.2464" xlink:href="#path-501"></use>
-                    <use id="Rectangle-2-Copy-7" mask="url(#mask-504)" stroke-width="2.2464" xlink:href="#path-503"></use>
-                    <use id="Rectangle-2-Copy-6" mask="url(#mask-506)" stroke-width="2.2464" xlink:href="#path-505"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-508)" stroke-width="2.2464" xlink:href="#path-507"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-510)" stroke-width="2.2464" xlink:href="#path-509"></use>
-                    <use id="Rectangle-2-Copy-8" mask="url(#mask-512)" stroke-width="2.2464" xlink:href="#path-511"></use>
-                    <use id="Rectangle-2-Copy-34" mask="url(#mask-514)" stroke-width="2.2464" xlink:href="#path-513"></use>
-                    <use id="Rectangle-2-Copy-33" mask="url(#mask-516)" stroke-width="2.2464" xlink:href="#path-515"></use>
-                    <use id="Rectangle-2-Copy-32" mask="url(#mask-518)" stroke-width="2.2464" xlink:href="#path-517"></use>
-                    <use id="Rectangle-2-Copy-31" mask="url(#mask-520)" stroke-width="2.2464" xlink:href="#path-519"></use>
-                    <use id="Rectangle-2-Copy-30" mask="url(#mask-522)" stroke-width="2.2464" xlink:href="#path-521"></use>
-                    <use id="Rectangle-2-Copy-29" mask="url(#mask-524)" stroke-width="2.2464" xlink:href="#path-523"></use>
-                    <use id="Rectangle-2-Copy-28" mask="url(#mask-526)" stroke-width="2.2464" xlink:href="#path-525"></use>
-                    <use id="Rectangle-2-Copy-27" mask="url(#mask-528)" stroke-width="2.2464" xlink:href="#path-527"></use>
-                    <use id="Rectangle-2-Copy-26" mask="url(#mask-530)" stroke-width="2.2464" xlink:href="#path-529"></use>
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-532)" stroke-width="2.2464" xlink:href="#path-531"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-534)" stroke-width="2.2464" xlink:href="#path-533"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-536)" stroke-width="2.2464" xlink:href="#path-535"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-538)" stroke-width="2.2464" xlink:href="#path-537"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-540)" stroke-width="2.2464" xlink:href="#path-539"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-542)" stroke-width="2.2464" xlink:href="#path-541"></use>
-                    <use id="Rectangle-2-Copy-16" mask="url(#mask-544)" stroke-width="2.2464" xlink:href="#path-543"></use>
-                    <use id="Rectangle-2-Copy-15" mask="url(#mask-546)" stroke-width="2.2464" xlink:href="#path-545"></use>
-                    <use id="Rectangle-2-Copy-14" mask="url(#mask-548)" stroke-width="2.2464" xlink:href="#path-547"></use>
-                    <use id="Rectangle-2-Copy-13" mask="url(#mask-550)" stroke-width="2.2464" xlink:href="#path-549"></use>
-                    <use id="Rectangle-2-Copy-12" mask="url(#mask-552)" stroke-width="2.2464" xlink:href="#path-551"></use>
-                    <use id="Rectangle-2-Copy-11" mask="url(#mask-554)" stroke-width="2.2464" xlink:href="#path-553"></use>
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-556)" stroke-width="2.2464" xlink:href="#path-555"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-558)" stroke-width="2.2464" xlink:href="#path-557"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-560)" stroke-width="2.2464" xlink:href="#path-559"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-562)" stroke-width="2.2464" xlink:href="#path-561"></use>
-                    <use id="Rectangle-2-Copy-7" mask="url(#mask-564)" stroke-width="2.2464" xlink:href="#path-563"></use>
-                    <use id="Rectangle-2-Copy-6" mask="url(#mask-566)" stroke-width="2.2464" xlink:href="#path-565"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-568)" stroke-width="2.2464" xlink:href="#path-567"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-570)" stroke-width="2.2464" xlink:href="#path-569"></use>
-                    <use id="Rectangle-2-Copy-8" mask="url(#mask-572)" stroke-width="2.2464" xlink:href="#path-571"></use>
-                    <use id="Rectangle-2-Copy-25" mask="url(#mask-574)" stroke-width="2.2464" xlink:href="#path-573"></use>
-                    <use id="Rectangle-2-Copy-24" mask="url(#mask-576)" stroke-width="2.2464" xlink:href="#path-575"></use>
-                    <use id="Rectangle-2-Copy-23" mask="url(#mask-578)" stroke-width="2.2464" xlink:href="#path-577"></use>
-                    <use id="Rectangle-2-Copy-22" mask="url(#mask-580)" stroke-width="2.2464" xlink:href="#path-579"></use>
-                    <use id="Rectangle-2-Copy-21" mask="url(#mask-582)" stroke-width="2.2464" xlink:href="#path-581"></use>
-                    <use id="Rectangle-2-Copy-20" mask="url(#mask-584)" stroke-width="2.2464" xlink:href="#path-583"></use>
-                    <use id="Rectangle-2-Copy-19" mask="url(#mask-586)" stroke-width="2.2464" xlink:href="#path-585"></use>
-                    <use id="Rectangle-2-Copy-18" mask="url(#mask-588)" stroke-width="2.2464" xlink:href="#path-587"></use>
-                    <use id="Rectangle-2-Copy-17" mask="url(#mask-590)" stroke-width="2.2464" xlink:href="#path-589"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-496)" stroke-width="2.2464" xlink:href="#path-495"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-498)" stroke-width="2.2464" xlink:href="#path-497"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-500)" stroke-width="2.2464" xlink:href="#path-499"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-502)" stroke-width="2.2464" xlink:href="#path-501"></use>
+                    <use class="windows" id="Rectangle-2-Copy-7" mask="url(#mask-504)" stroke-width="2.2464" xlink:href="#path-503"></use>
+                    <use class="windows" id="Rectangle-2-Copy-6" mask="url(#mask-506)" stroke-width="2.2464" xlink:href="#path-505"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-508)" stroke-width="2.2464" xlink:href="#path-507"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-510)" stroke-width="2.2464" xlink:href="#path-509"></use>
+                    <use class="windows" id="Rectangle-2-Copy-8" mask="url(#mask-512)" stroke-width="2.2464" xlink:href="#path-511"></use>
+                    <use class="windows" id="Rectangle-2-Copy-34" mask="url(#mask-514)" stroke-width="2.2464" xlink:href="#path-513"></use>
+                    <use class="windows" id="Rectangle-2-Copy-33" mask="url(#mask-516)" stroke-width="2.2464" xlink:href="#path-515"></use>
+                    <use class="windows" id="Rectangle-2-Copy-32" mask="url(#mask-518)" stroke-width="2.2464" xlink:href="#path-517"></use>
+                    <use class="windows" id="Rectangle-2-Copy-31" mask="url(#mask-520)" stroke-width="2.2464" xlink:href="#path-519"></use>
+                    <use class="windows" id="Rectangle-2-Copy-30" mask="url(#mask-522)" stroke-width="2.2464" xlink:href="#path-521"></use>
+                    <use class="windows" id="Rectangle-2-Copy-29" mask="url(#mask-524)" stroke-width="2.2464" xlink:href="#path-523"></use>
+                    <use class="windows" id="Rectangle-2-Copy-28" mask="url(#mask-526)" stroke-width="2.2464" xlink:href="#path-525"></use>
+                    <use class="windows" id="Rectangle-2-Copy-27" mask="url(#mask-528)" stroke-width="2.2464" xlink:href="#path-527"></use>
+                    <use class="windows" id="Rectangle-2-Copy-26" mask="url(#mask-530)" stroke-width="2.2464" xlink:href="#path-529"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-532)" stroke-width="2.2464" xlink:href="#path-531"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-534)" stroke-width="2.2464" xlink:href="#path-533"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-536)" stroke-width="2.2464" xlink:href="#path-535"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-538)" stroke-width="2.2464" xlink:href="#path-537"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-540)" stroke-width="2.2464" xlink:href="#path-539"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-542)" stroke-width="2.2464" xlink:href="#path-541"></use>
+                    <use class="windows" id="Rectangle-2-Copy-16" mask="url(#mask-544)" stroke-width="2.2464" xlink:href="#path-543"></use>
+                    <use class="windows" id="Rectangle-2-Copy-15" mask="url(#mask-546)" stroke-width="2.2464" xlink:href="#path-545"></use>
+                    <use class="windows" id="Rectangle-2-Copy-14" mask="url(#mask-548)" stroke-width="2.2464" xlink:href="#path-547"></use>
+                    <use class="windows" id="Rectangle-2-Copy-13" mask="url(#mask-550)" stroke-width="2.2464" xlink:href="#path-549"></use>
+                    <use class="windows" id="Rectangle-2-Copy-12" mask="url(#mask-552)" stroke-width="2.2464" xlink:href="#path-551"></use>
+                    <use class="windows" id="Rectangle-2-Copy-11" mask="url(#mask-554)" stroke-width="2.2464" xlink:href="#path-553"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-556)" stroke-width="2.2464" xlink:href="#path-555"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-558)" stroke-width="2.2464" xlink:href="#path-557"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-560)" stroke-width="2.2464" xlink:href="#path-559"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-562)" stroke-width="2.2464" xlink:href="#path-561"></use>
+                    <use class="windows" id="Rectangle-2-Copy-7" mask="url(#mask-564)" stroke-width="2.2464" xlink:href="#path-563"></use>
+                    <use class="windows" id="Rectangle-2-Copy-6" mask="url(#mask-566)" stroke-width="2.2464" xlink:href="#path-565"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-568)" stroke-width="2.2464" xlink:href="#path-567"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-570)" stroke-width="2.2464" xlink:href="#path-569"></use>
+                    <use class="windows" id="Rectangle-2-Copy-8" mask="url(#mask-572)" stroke-width="2.2464" xlink:href="#path-571"></use>
+                    <use class="windows" id="Rectangle-2-Copy-25" mask="url(#mask-574)" stroke-width="2.2464" xlink:href="#path-573"></use>
+                    <use class="windows" id="Rectangle-2-Copy-24" mask="url(#mask-576)" stroke-width="2.2464" xlink:href="#path-575"></use>
+                    <use class="windows" id="Rectangle-2-Copy-23" mask="url(#mask-578)" stroke-width="2.2464" xlink:href="#path-577"></use>
+                    <use class="windows" id="Rectangle-2-Copy-22" mask="url(#mask-580)" stroke-width="2.2464" xlink:href="#path-579"></use>
+                    <use class="windows" id="Rectangle-2-Copy-21" mask="url(#mask-582)" stroke-width="2.2464" xlink:href="#path-581"></use>
+                    <use class="windows" id="Rectangle-2-Copy-20" mask="url(#mask-584)" stroke-width="2.2464" xlink:href="#path-583"></use>
+                    <use class="windows" id="Rectangle-2-Copy-19" mask="url(#mask-586)" stroke-width="2.2464" xlink:href="#path-585"></use>
+                    <use class="windows" id="Rectangle-2-Copy-18" mask="url(#mask-588)" stroke-width="2.2464" xlink:href="#path-587"></use>
+                    <use class="windows" id="Rectangle-2-Copy-17" mask="url(#mask-590)" stroke-width="2.2464" xlink:href="#path-589"></use>
                     <use id="Rectangle-6" mask="url(#mask-592)" stroke-width="2.9952" xlink:href="#path-591"></use>
                     <use id="Rectangle-6-Copy" mask="url(#mask-594)" stroke-width="2.9952" xlink:href="#path-593"></use>
                 </g>
                 <g id="building1-copy-2" opacity="0.5" transform="translate(308.366629, 272.728053)" stroke="#DCEDC8">
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-596)" stroke-width="2.2464" xlink:href="#path-595"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-598)" stroke-width="2.2464" xlink:href="#path-597"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-600)" stroke-width="2.2464" xlink:href="#path-599"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-602)" stroke-width="2.2464" xlink:href="#path-601"></use>
-                    <use id="Rectangle-2-Copy-7" mask="url(#mask-604)" stroke-width="2.2464" xlink:href="#path-603"></use>
-                    <use id="Rectangle-2-Copy-6" mask="url(#mask-606)" stroke-width="2.2464" xlink:href="#path-605"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-608)" stroke-width="2.2464" xlink:href="#path-607"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-610)" stroke-width="2.2464" xlink:href="#path-609"></use>
-                    <use id="Rectangle-2-Copy-8" mask="url(#mask-612)" stroke-width="2.2464" xlink:href="#path-611"></use>
-                    <use id="Rectangle-2-Copy-34" mask="url(#mask-614)" stroke-width="2.2464" xlink:href="#path-613"></use>
-                    <use id="Rectangle-2-Copy-33" mask="url(#mask-616)" stroke-width="2.2464" xlink:href="#path-615"></use>
-                    <use id="Rectangle-2-Copy-32" mask="url(#mask-618)" stroke-width="2.2464" xlink:href="#path-617"></use>
-                    <use id="Rectangle-2-Copy-31" mask="url(#mask-620)" stroke-width="2.2464" xlink:href="#path-619"></use>
-                    <use id="Rectangle-2-Copy-30" mask="url(#mask-622)" stroke-width="2.2464" xlink:href="#path-621"></use>
-                    <use id="Rectangle-2-Copy-29" mask="url(#mask-624)" stroke-width="2.2464" xlink:href="#path-623"></use>
-                    <use id="Rectangle-2-Copy-28" mask="url(#mask-626)" stroke-width="2.2464" xlink:href="#path-625"></use>
-                    <use id="Rectangle-2-Copy-27" mask="url(#mask-628)" stroke-width="2.2464" xlink:href="#path-627"></use>
-                    <use id="Rectangle-2-Copy-26" mask="url(#mask-630)" stroke-width="2.2464" xlink:href="#path-629"></use>
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-632)" stroke-width="2.2464" xlink:href="#path-631"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-634)" stroke-width="2.2464" xlink:href="#path-633"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-636)" stroke-width="2.2464" xlink:href="#path-635"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-638)" stroke-width="2.2464" xlink:href="#path-637"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-640)" stroke-width="2.2464" xlink:href="#path-639"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-642)" stroke-width="2.2464" xlink:href="#path-641"></use>
-                    <use id="Rectangle-2-Copy-16" mask="url(#mask-644)" stroke-width="2.2464" xlink:href="#path-643"></use>
-                    <use id="Rectangle-2-Copy-15" mask="url(#mask-646)" stroke-width="2.2464" xlink:href="#path-645"></use>
-                    <use id="Rectangle-2-Copy-14" mask="url(#mask-648)" stroke-width="2.2464" xlink:href="#path-647"></use>
-                    <use id="Rectangle-2-Copy-13" mask="url(#mask-650)" stroke-width="2.2464" xlink:href="#path-649"></use>
-                    <use id="Rectangle-2-Copy-12" mask="url(#mask-652)" stroke-width="2.2464" xlink:href="#path-651"></use>
-                    <use id="Rectangle-2-Copy-11" mask="url(#mask-654)" stroke-width="2.2464" xlink:href="#path-653"></use>
-                    <use id="Rectangle-2-Copy-2" mask="url(#mask-656)" stroke-width="2.2464" xlink:href="#path-655"></use>
-                    <use id="Rectangle-2-Copy-3" mask="url(#mask-658)" stroke-width="2.2464" xlink:href="#path-657"></use>
-                    <use id="Rectangle-2-Copy-5" mask="url(#mask-660)" stroke-width="2.2464" xlink:href="#path-659"></use>
-                    <use id="Rectangle-2-Copy-4" mask="url(#mask-662)" stroke-width="2.2464" xlink:href="#path-661"></use>
-                    <use id="Rectangle-2-Copy-7" mask="url(#mask-664)" stroke-width="2.2464" xlink:href="#path-663"></use>
-                    <use id="Rectangle-2-Copy-6" mask="url(#mask-666)" stroke-width="2.2464" xlink:href="#path-665"></use>
-                    <use id="Rectangle-2-Copy-10" mask="url(#mask-668)" stroke-width="2.2464" xlink:href="#path-667"></use>
-                    <use id="Rectangle-2-Copy-9" mask="url(#mask-670)" stroke-width="2.2464" xlink:href="#path-669"></use>
-                    <use id="Rectangle-2-Copy-8" mask="url(#mask-672)" stroke-width="2.2464" xlink:href="#path-671"></use>
-                    <use id="Rectangle-2-Copy-25" mask="url(#mask-674)" stroke-width="2.2464" xlink:href="#path-673"></use>
-                    <use id="Rectangle-2-Copy-24" mask="url(#mask-676)" stroke-width="2.2464" xlink:href="#path-675"></use>
-                    <use id="Rectangle-2-Copy-23" mask="url(#mask-678)" stroke-width="2.2464" xlink:href="#path-677"></use>
-                    <use id="Rectangle-2-Copy-22" mask="url(#mask-680)" stroke-width="2.2464" xlink:href="#path-679"></use>
-                    <use id="Rectangle-2-Copy-21" mask="url(#mask-682)" stroke-width="2.2464" xlink:href="#path-681"></use>
-                    <use id="Rectangle-2-Copy-20" mask="url(#mask-684)" stroke-width="2.2464" xlink:href="#path-683"></use>
-                    <use id="Rectangle-2-Copy-19" mask="url(#mask-686)" stroke-width="2.2464" xlink:href="#path-685"></use>
-                    <use id="Rectangle-2-Copy-18" mask="url(#mask-688)" stroke-width="2.2464" xlink:href="#path-687"></use>
-                    <use id="Rectangle-2-Copy-17" mask="url(#mask-690)" stroke-width="2.2464" xlink:href="#path-689"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-596)" stroke-width="2.2464" xlink:href="#path-595"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-598)" stroke-width="2.2464" xlink:href="#path-597"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-600)" stroke-width="2.2464" xlink:href="#path-599"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-602)" stroke-width="2.2464" xlink:href="#path-601"></use>
+                    <use class="windows" id="Rectangle-2-Copy-7" mask="url(#mask-604)" stroke-width="2.2464" xlink:href="#path-603"></use>
+                    <use class="windows" id="Rectangle-2-Copy-6" mask="url(#mask-606)" stroke-width="2.2464" xlink:href="#path-605"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-608)" stroke-width="2.2464" xlink:href="#path-607"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-610)" stroke-width="2.2464" xlink:href="#path-609"></use>
+                    <use class="windows" id="Rectangle-2-Copy-8" mask="url(#mask-612)" stroke-width="2.2464" xlink:href="#path-611"></use>
+                    <use class="windows" id="Rectangle-2-Copy-34" mask="url(#mask-614)" stroke-width="2.2464" xlink:href="#path-613"></use>
+                    <use class="windows" id="Rectangle-2-Copy-33" mask="url(#mask-616)" stroke-width="2.2464" xlink:href="#path-615"></use>
+                    <use class="windows" id="Rectangle-2-Copy-32" mask="url(#mask-618)" stroke-width="2.2464" xlink:href="#path-617"></use>
+                    <use class="windows" id="Rectangle-2-Copy-31" mask="url(#mask-620)" stroke-width="2.2464" xlink:href="#path-619"></use>
+                    <use class="windows" id="Rectangle-2-Copy-30" mask="url(#mask-622)" stroke-width="2.2464" xlink:href="#path-621"></use>
+                    <use class="windows" id="Rectangle-2-Copy-29" mask="url(#mask-624)" stroke-width="2.2464" xlink:href="#path-623"></use>
+                    <use class="windows" id="Rectangle-2-Copy-28" mask="url(#mask-626)" stroke-width="2.2464" xlink:href="#path-625"></use>
+                    <use class="windows" id="Rectangle-2-Copy-27" mask="url(#mask-628)" stroke-width="2.2464" xlink:href="#path-627"></use>
+                    <use class="windows" id="Rectangle-2-Copy-26" mask="url(#mask-630)" stroke-width="2.2464" xlink:href="#path-629"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-632)" stroke-width="2.2464" xlink:href="#path-631"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-634)" stroke-width="2.2464" xlink:href="#path-633"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-636)" stroke-width="2.2464" xlink:href="#path-635"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-638)" stroke-width="2.2464" xlink:href="#path-637"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-640)" stroke-width="2.2464" xlink:href="#path-639"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-642)" stroke-width="2.2464" xlink:href="#path-641"></use>
+                    <use class="windows" id="Rectangle-2-Copy-16" mask="url(#mask-644)" stroke-width="2.2464" xlink:href="#path-643"></use>
+                    <use class="windows" id="Rectangle-2-Copy-15" mask="url(#mask-646)" stroke-width="2.2464" xlink:href="#path-645"></use>
+                    <use class="windows" id="Rectangle-2-Copy-14" mask="url(#mask-648)" stroke-width="2.2464" xlink:href="#path-647"></use>
+                    <use class="windows" id="Rectangle-2-Copy-13" mask="url(#mask-650)" stroke-width="2.2464" xlink:href="#path-649"></use>
+                    <use class="windows" id="Rectangle-2-Copy-12" mask="url(#mask-652)" stroke-width="2.2464" xlink:href="#path-651"></use>
+                    <use class="windows" id="Rectangle-2-Copy-11" mask="url(#mask-654)" stroke-width="2.2464" xlink:href="#path-653"></use>
+                    <use class="windows" id="Rectangle-2-Copy-2" mask="url(#mask-656)" stroke-width="2.2464" xlink:href="#path-655"></use>
+                    <use class="windows" id="Rectangle-2-Copy-3" mask="url(#mask-658)" stroke-width="2.2464" xlink:href="#path-657"></use>
+                    <use class="windows" id="Rectangle-2-Copy-5" mask="url(#mask-660)" stroke-width="2.2464" xlink:href="#path-659"></use>
+                    <use class="windows" id="Rectangle-2-Copy-4" mask="url(#mask-662)" stroke-width="2.2464" xlink:href="#path-661"></use>
+                    <use class="windows" id="Rectangle-2-Copy-7" mask="url(#mask-664)" stroke-width="2.2464" xlink:href="#path-663"></use>
+                    <use class="windows" id="Rectangle-2-Copy-6" mask="url(#mask-666)" stroke-width="2.2464" xlink:href="#path-665"></use>
+                    <use class="windows" id="Rectangle-2-Copy-10" mask="url(#mask-668)" stroke-width="2.2464" xlink:href="#path-667"></use>
+                    <use class="windows" id="Rectangle-2-Copy-9" mask="url(#mask-670)" stroke-width="2.2464" xlink:href="#path-669"></use>
+                    <use class="windows" id="Rectangle-2-Copy-8" mask="url(#mask-672)" stroke-width="2.2464" xlink:href="#path-671"></use>
+                    <use class="windows" id="Rectangle-2-Copy-25" mask="url(#mask-674)" stroke-width="2.2464" xlink:href="#path-673"></use>
+                    <use class="windows" id="Rectangle-2-Copy-24" mask="url(#mask-676)" stroke-width="2.2464" xlink:href="#path-675"></use>
+                    <use class="windows" id="Rectangle-2-Copy-23" mask="url(#mask-678)" stroke-width="2.2464" xlink:href="#path-677"></use>
+                    <use class="windows" id="Rectangle-2-Copy-22" mask="url(#mask-680)" stroke-width="2.2464" xlink:href="#path-679"></use>
+                    <use class="windows" id="Rectangle-2-Copy-21" mask="url(#mask-682)" stroke-width="2.2464" xlink:href="#path-681"></use>
+                    <use class="windows" id="Rectangle-2-Copy-20" mask="url(#mask-684)" stroke-width="2.2464" xlink:href="#path-683"></use>
+                    <use class="windows" id="Rectangle-2-Copy-19" mask="url(#mask-686)" stroke-width="2.2464" xlink:href="#path-685"></use>
+                    <use class="windows" id="Rectangle-2-Copy-18" mask="url(#mask-688)" stroke-width="2.2464" xlink:href="#path-687"></use>
+                    <use class="windows" id="Rectangle-2-Copy-17" mask="url(#mask-690)" stroke-width="2.2464" xlink:href="#path-689"></use>
                     <use id="Rectangle-6" mask="url(#mask-692)" stroke-width="2.9952" xlink:href="#path-691"></use>
                     <use id="Rectangle-6-Copy" mask="url(#mask-694)" stroke-width="2.9952" xlink:href="#path-693"></use>
                 </g>
@@ -1810,10 +1810,10 @@
                     <rect id="Rectangle-9" fill="#DCEDC8" x="3.00113507" y="5.98947414" width="1.12542565" height="8.23552694"></rect>
                 </g>
             </g>
-            <g id="could_w_sun" transform="translate(769.000000, 69.000000)" stroke-width="4">
-                <path d="M102.965829,36.4066859 C104.604276,36.1391204 106.285891,36 108,36 C125.120827,36 139,49.8791728 139,67 C139,84.1208272 125.120827,98 108,98 C90.8791728,98 77,84.1208272 77,67 C77,66.5756285 77.0085272,66.1532487 77.0254196,65.7330225 L85.3243866,65.7330225 C96.3515947,65.7330225 105.290913,56.7963188 105.290913,45.7669208 C105.290913,42.3844825 104.450044,39.1984911 102.965829,36.4066859 Z" id="Combined-Shape" stroke="#FFFFFF"></path>
-                <path d="M81.9260886,25.9038468 L85.0495755,25.9038468 C96.0704184,25.9038468 105,34.8796764 105,45.9519234 C105,57.0266049 96.0678907,66 85.0495755,66 L19.9504245,66 C8.9295816,66 0,57.0241704 0,45.9519234 C0,45.6349641 0.00731641774,45.319726 0.0217887634,45.0063702 C0.00731910417,44.7078786 0,44.4074955 0,44.10539 C0,44.061232 0.000156494024,44.0171107 0.000468954671,43.9730267 C0.000156494904,43.9292548 0,43.8854455 0,43.8415995 C0,33.932674 7.99338592,25.9038468 17.8537272,25.9038468 L26.5793436,25.9038468 C26.0571506,24.1157557 25.7771234,22.2249865 25.7771234,20.2695893 L25.7771234,20.0922185 C25.7771234,8.99559265 34.769509,0 45.8754019,0 L62.6283034,0 C73.7282761,0 82.7265819,9.00774053 82.7265819,20.0922185 L82.7265819,20.2695893 C82.7265819,22.225539 82.4471935,24.1162108 81.9260886,25.9038468 Z" id="Combined-Shape" stroke="#DCEDC8"></path>
-                <path d="M100.019751,97.101821 C100.00663,97.3995657 100,97.6990049 100,98 C100,109.045695 108.929582,118 119.950425,118 L185.049575,118 C196.067891,118 205,109.048124 205,98 C205,86.954305 196.070418,78 185.049575,78 L136.565366,78 C132.131697,89.7124353 120.833484,98.0373344 107.595749,98.0373344 C104.982179,98.0373344 102.444213,97.7128307 100.019751,97.101821 Z" id="Combined-Shape" stroke="#DCEDC8" opacity="0.5"></path>
+            <g id="clouds_w_sun" transform="translate(769.000000, 69.000000)" stroke-width="4">
+                <path d="M102.965829,36.4066859 C104.604276,36.1391204 106.285891,36 108,36 C125.120827,36 139,49.8791728 139,67 C139,84.1208272 125.120827,98 108,98 C90.8791728,98 77,84.1208272 77,67 C77,66.5756285 77.0085272,66.1532487 77.0254196,65.7330225 L85.3243866,65.7330225 C96.3515947,65.7330225 105.290913,56.7963188 105.290913,45.7669208 C105.290913,42.3844825 104.450044,39.1984911 102.965829,36.4066859 Z" id="sun" stroke="#FFFFFF"></path>
+                <path d="M81.9260886,25.9038468 L85.0495755,25.9038468 C96.0704184,25.9038468 105,34.8796764 105,45.9519234 C105,57.0266049 96.0678907,66 85.0495755,66 L19.9504245,66 C8.9295816,66 0,57.0241704 0,45.9519234 C0,45.6349641 0.00731641774,45.319726 0.0217887634,45.0063702 C0.00731910417,44.7078786 0,44.4074955 0,44.10539 C0,44.061232 0.000156494024,44.0171107 0.000468954671,43.9730267 C0.000156494904,43.9292548 0,43.8854455 0,43.8415995 C0,33.932674 7.99338592,25.9038468 17.8537272,25.9038468 L26.5793436,25.9038468 C26.0571506,24.1157557 25.7771234,22.2249865 25.7771234,20.2695893 L25.7771234,20.0922185 C25.7771234,8.99559265 34.769509,0 45.8754019,0 L62.6283034,0 C73.7282761,0 82.7265819,9.00774053 82.7265819,20.0922185 L82.7265819,20.2695893 C82.7265819,22.225539 82.4471935,24.1162108 81.9260886,25.9038468 Z" id="cloud1" stroke="#DCEDC8"></path>
+                <path d="M100.019751,97.101821 C100.00663,97.3995657 100,97.6990049 100,98 C100,109.045695 108.929582,118 119.950425,118 L185.049575,118 C196.067891,118 205,109.048124 205,98 C205,86.954305 196.070418,78 185.049575,78 L136.565366,78 C132.131697,89.7124353 120.833484,98.0373344 107.595749,98.0373344 C104.982179,98.0373344 102.444213,97.7128307 100.019751,97.101821 Z" id="cloud2" stroke="#DCEDC8" opacity="0.5"></path>
             </g>
             <path d="M1015.78226,105.559441 L1017.30979,105.559441 C1022.66277,105.559441 1027,109.911358 1027,115.27972 C1027,120.649263 1022.66155,125 1017.30979,125 L985.690206,125 C980.337225,125 976,120.648083 976,115.27972 C976,115.126043 976.003554,114.9732 976.010583,114.82127 C976.003555,114.676547 976,114.530907 976,114.384432 C976,114.363022 976.000076,114.341629 976.000228,114.320255 C976.000076,114.299033 976,114.277792 976,114.256533 C976,109.452206 979.882502,105.559441 984.67181,105.559441 L988.919469,105.559441 C988.659719,104.679814 988.520317,103.748554 988.520317,102.784681 C988.520317,97.3807508 992.903311,93 998.311536,93 L1006.39026,93 C1011.7978,93 1016.18148,97.3795626 1016.18148,102.784681 C1016.18148,103.748498 1016.04206,104.679768 1015.78226,105.559441 Z" id="cloud_right" stroke="#DCEDC8" stroke-width="6" opacity="0.25" transform="translate(1001.500000, 109.000000) scale(-1, 1) translate(-1001.500000, -109.000000) "></path>
             <path d="M201.926089,336.903847 L205.049575,336.903847 C216.070418,336.903847 225,345.879676 225,356.951923 C225,368.026605 216.067891,377 205.049575,377 L139.950425,377 C128.929582,377 120,368.02417 120,356.951923 C120,356.634964 120.007316,356.319726 120.021789,356.00637 C120.007319,355.707879 120,355.407495 120,355.10539 C120,355.061232 120.000156,355.017111 120.000469,354.973027 C120.000156,354.929255 120,354.885446 120,354.8416 C120,344.932674 127.993386,336.903847 137.853727,336.903847 L146.579344,336.903847 C146.057151,335.115756 145.777123,333.224987 145.777123,331.269589 L145.777123,331.092219 C145.777123,319.995593 154.769509,311 165.875402,311 L182.628303,311 C193.728276,311 202.726582,320.007741 202.726582,331.092219 L202.726582,331.269589 C202.726582,333.225539 202.447194,335.116211 201.926089,336.903847 Z" id="cloud_left2" stroke="#DCEDC8" stroke-width="6" opacity="0.25" transform="translate(172.500000, 344.000000) scale(-1, 1) translate(-172.500000, -344.000000) "></path>
