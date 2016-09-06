@@ -17,7 +17,7 @@ class SignupForm extends Component {
   }
 
   render() {
-    var style = {
+    let style = {
       display: this.state.formExpanded ? 'block':'none'
     }
     return (

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 class Sponsor extends Component {
+
   render() {
     return (
       <div className="sponsor-page container">

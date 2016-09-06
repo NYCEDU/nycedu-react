@@ -5,6 +5,7 @@ import CalendarEvents from './CalendarEvents';
 import DocumentTitle from 'react-document-title';
 
 class Events extends Component {
+
   render() {
     return (
       <div className="events-page container">

@@ -13,6 +13,7 @@ import theme from './theme';
 
 
 class App extends Component {
+
   render() {
     return (
       <MuiThemeProvider muiTheme={theme}>

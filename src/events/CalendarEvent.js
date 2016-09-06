@@ -10,11 +10,12 @@ import RaisedButton from 'material-ui/RaisedButton';
 class CalendarEvent extends Component {
 
   render() {
-    var event = this.props.event;
-    var day = moment(event.start.dateTime).format("ddd, MMM Do");
-    var start = moment(event.start.dateTime).format("h:mma");
-    var end = moment(event.end.dateTime).format("h:mma");
-    var emailHash = md5(this.props.event.organizer.email).toString();
+
+    const event = this.props.event;
+    const day = moment(event.start.dateTime).format("ddd, MMM Do");
+    const start = moment(event.start.dateTime).format("h:mma");
+    const end = moment(event.end.dateTime).format("h:mma");
+    const emailHash = md5(this.props.event.organizer.email).toString();
 
     return(
       <div className=" col-sm-6 col-md-4">

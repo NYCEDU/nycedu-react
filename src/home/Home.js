@@ -14,9 +14,6 @@ class Home extends Component {
     pos3: 'fixed'
   }
 
-  handleResize(e) {
-  }
-
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll.bind(this));
   }

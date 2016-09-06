@@ -3,13 +3,6 @@ import './Organization.css';
 
 class Organization extends Component {
 
-  state = {
-    data: []
-  }
-
-  componentDidMount() {
-  }
-
   render() {
     return (<div className='organization col-xs-6 col-sm-4 col-lg-3'>
               <img src={this.props.image}
