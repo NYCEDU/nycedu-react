@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Organization.css';
+import './OrganizationCard.css';
 
 class Organization extends Component {
 

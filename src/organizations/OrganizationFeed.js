@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './CommunityFeed.css';
-import Organization from './Organization';
+import './OrganizationFeed.css';
+import OrganizationCard from './OrganizationCard';
 
-class CommunityFeed extends Component {
+class OrganizationFeed extends Component {
 
   state = {
     organizations: []
@@ -42,7 +42,7 @@ class CommunityFeed extends Component {
       <ul className="organization-list row">
         {this.state.organizations.map(
           function(entry, i){
-            return <Organization
+            return <OrganizationCard
                       key={i}
                       image={'https://twitter.com/'+entry.twitterHandle+'/profile_image?size=original'}
                       twitterHandle={entry.twitterHandle}
@@ -56,4 +56,4 @@ class CommunityFeed extends Component {
   }
 }
 
-export default CommunityFeed;
+export default OrganizationFeed;

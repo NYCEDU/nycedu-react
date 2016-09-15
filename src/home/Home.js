@@ -10,8 +10,9 @@ import RaisedButton from 'material-ui/RaisedButton';
 class Home extends Component {
 
   state = {
-    pos2:'fixed',
-    pos3: 'fixed'
+    pos2: 'fixed',
+    pos3: 'fixed',
+    pos4: 'fixed'
   }
 
   componentDidMount() {
@@ -25,30 +26,37 @@ class Home extends Component {
   handleScroll() {
     this.setState({pos2: window.scrollY >= window.innerHeight ? 'relative':'fixed'});
     this.setState({pos3: (window.scrollY >= (2*window.innerHeight)) ? 'relative':'fixed'});
+    this.setState({pos4: (window.scrollY >= (3*window.innerHeight)) ? 'relative':'fixed'});
   }
 
   render() {
     return (
-      <div style={{height:'300vh'}}>
+      <div style={{height:'400vh'}}>
         <DocumentTitle title="Welcome to your community | #NYCEDU" />
-        <Section className="community" zIndex={3} backgroundColor="#8bc34a" position='relative'>
+        <Section className="community" zIndex={4} backgroundColor="#8bc34a" position='relative'>
           <object id="community-background" type="image/svg+xml" data={community}>Your browser does not support svgs.</object>
           <h1>#NYCEDU</h1>
           <p>We are a community of teachers, technologists, advocates, and administrators.</p>
           <p>We can do more and do better, together.</p>
           <RaisedButton label="see our community" href="/community" />
         </Section>
-        <Section className="projects" zIndex={2} backgroundColor='#fff' position={this.state.pos2}>
+        <Section className="projects" zIndex={3} backgroundColor='#fff' position={this.state.pos2}>
           <h1>Be a part of #NYCEDU</h1>
           <p>We are a community of teachers, technologists, advocates, and administrators.</p>
           <p>We can do more and do better, together.</p>
           <RaisedButton label="see our projects" href="/projects" />
         </Section>
-        <Section className="events" zIndex={1} backgroundColor='#dcedc8' position={this.state.pos3}>
+        <Section className="events" zIndex={2} backgroundColor='#dcedc8' position={this.state.pos3}>
           <h1>#NYCEDU Events</h1>
           <p>We are a community of teachers, technologists, advocates, and administrators.</p>
           <p>We can do more and do better, together.</p>
           <RaisedButton label="see our events" href="/events" />
+        </Section>
+        <Section className="organizations" zIndex={1} backgroundColor='#fff' position={this.state.pos4}>
+          <h1>#NYCEDU Organizations</h1>
+          <p>We are a community of teachers, technologists, advocates, and administrators.</p>
+          <p>We can do more and do better, together.</p>
+          <RaisedButton label="see our organizations" href="/organizations" />
         </Section>
       </div>
     );
