@@ -38,17 +38,17 @@ class Home extends Component {
           <p>We can do more and do better, together.</p>
           <RaisedButton label="see our community" href="/community" />
         </Section>
-        <Section className="sponsor" zIndex={2} backgroundColor='#fff' position={this.state.pos2}>
-          <h1>Sponsor #NYCEDU</h1>
+        <Section className="projects" zIndex={2} backgroundColor='#fff' position={this.state.pos2}>
+          <h1>Be a part of #NYCEDU</h1>
           <p>We are a community of teachers, technologists, advocates, and administrators.</p>
           <p>We can do more and do better, together.</p>
-          <RaisedButton label="sponsorship opportunities" href="/sponsor" />
+          <RaisedButton label="see our projects" href="/projects" />
         </Section>
         <Section className="events" zIndex={1} backgroundColor='#dcedc8' position={this.state.pos3}>
           <h1>#NYCEDU Events</h1>
           <p>We are a community of teachers, technologists, advocates, and administrators.</p>
           <p>We can do more and do better, together.</p>
-          <RaisedButton label="see events" href="/events" />
+          <RaisedButton label="see our events" href="/events" />
         </Section>
       </div>
     );
