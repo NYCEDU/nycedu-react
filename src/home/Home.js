@@ -6,6 +6,7 @@ import community from './community.svg';
 import DocumentTitle from 'react-document-title';
 
 import RaisedButton from 'material-ui/RaisedButton';
+import Paper from 'material-ui/Paper';
 
 class Home extends Component {
 
@@ -45,6 +46,29 @@ class Home extends Component {
           <p>We are a community of teachers, technologists, advocates, and administrators.</p>
           <p>We can do more and do better, together.</p>
           <RaisedButton label="see our projects" href="/projects" />
+          <div className="row">
+            <div className="col-md-4">
+              <Paper>
+                <h2>Hour of Code</h2>
+                <h3>Code Brooklyn</h3>
+                <p>Information about hour of code</p>
+              </Paper>
+            </div>
+            <div className="col-md-4">
+              <Paper>
+                <h2>Startup Weekend Edu</h2>
+                <h3>Code Brooklyn</h3>
+                <p>Information about hour of code</p>
+              </Paper>
+            </div>
+            <div className="col-md-4">
+              <Paper>
+                <h2>SXSWedu Ultimate List</h2>
+                <h3>Code Brooklyn</h3>
+                <p>Information about hour of code</p>
+              </Paper>
+            </div>
+          </div>
         </Section>
         <Section className="events" zIndex={2} backgroundColor='#dcedc8' position={this.state.pos3}>
           <h1>#NYCEDU Events</h1>
