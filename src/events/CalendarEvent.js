@@ -3,7 +3,7 @@ import moment from 'moment';
 import md5 from 'crypto-js/md5';
 import './CalendarEvent.css';
 
-import {Card, CardActions, CardHeader, CardText} from 'material-ui/Card';
+import {Card, CardHeader, CardText} from 'material-ui/Card';
 import RaisedButton from 'material-ui/RaisedButton';
 
 
@@ -18,25 +18,24 @@ class CalendarEvent extends Component {
     const emailHash = md5(this.props.event.organizer.email).toString();
 
     return(
-      <div className=" col-sm-6 col-md-4">
-        <Card className="event">
+      <div className="row">
+        <Card className="event col-md-12">
           <CardHeader className="event-header"
-                      title={day}
-                      subtitle={start + ' - ' + end}
-                      avatar={'https://www.gravatar.com/avatar/'+emailHash}/>
-          <CardText className="event-body">
-            <h3>{event.summary}</h3>
-            <p className="event-description">{event.description}</p>
+                      title={event.summary}
+                      subtitle={day + ' ' + start + ' - ' + end}
+                      avatar={'https://www.gravatar.com/avatar/'+emailHash}
+                      actAsExpander={true}
+                      showExpandableButton={true} />
+          <CardText className="event-body" expandable={true}>
             <div className="event-location">
-              {event.location}
+              <span>Where:</span> {event.location}
             </div>
-            <span>Organizer: <a href={'mailto:'+event.organizer.email}>
+            <p className="event-description">{event.description}</p>
+            <p>Organizer: <a href={'mailto:'+event.organizer.email}>
               {event.organizer.displayName}</a>
-            </span>
-          </CardText>
-          <CardActions>
+            </p>
             <RaisedButton label="learn more" target="_blank" href={event.htmlLink} />
-          </CardActions>
+          </CardText>
         </Card>
       </div>
     )

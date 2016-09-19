@@ -23,7 +23,7 @@ class CalendarEvents extends Component {
         <div>
           <h2>This month</h2>
         </div>
-        <dl className="events-list row"> 
+        <dl className="events-list"> 
           {this.state.events.map(
             function (event) {
               return <CalendarEvent
