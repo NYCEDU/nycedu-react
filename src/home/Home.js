@@ -70,7 +70,7 @@ class Home extends Component {
             </div>
           </div>
         </Section>
-        <Section className="events" zIndex={2} backgroundColor='#dcedc8' position={this.state.pos3}>
+        <Section className="events" zIndex={2} backgroundColor='#607d8b' position={this.state.pos3}>
           <h1>#NYCEDU Events</h1>
           <p>We are a community of teachers, technologists, advocates, and administrators.</p>
           <p>We can do more and do better, together.</p>

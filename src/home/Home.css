@@ -1,0 +1,11 @@
+.section.events {
+  color: #fff; }
+
+#community-background {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 100%;
+  margin-left: -50%;
+  z-index: -1; }

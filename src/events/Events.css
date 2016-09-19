@@ -1,2 +1,6 @@
 .events-page {
-  margin-top: 50px; }
+  margin-top: 50px;
+  background: #607d8b;
+  min-height: 100vh;
+  color: #fff;
+  }
