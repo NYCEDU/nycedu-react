@@ -48,7 +48,11 @@ class Home extends Component {
     }
     
     let turnOnLight = (ele) => {
-      ele.style.fill="yellow";
+      if (ele.style.fill === 'yellow'){
+        ele.style.fill = '';
+      } else {
+        ele.style.fill='yellow';
+      }
     }
 
     let grabRandom = (items) => {
