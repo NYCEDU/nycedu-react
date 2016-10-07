@@ -15,36 +15,48 @@ class Home extends Component {
   state = {
     pos2: 'fixed',
     pos3: 'fixed',
-    pos4: 'fixed'
+    pos4: 'fixed',
+    intervalId: null
   }
 
   componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll.bind(this));
+    window.addEventListener('scroll', this.handleScroll);
     
-    window.onload = function(){
-      let turnOnLight = function(ele){ele.style.fill="yellow"}
-
-      let grabRandom = function(items){return items[Math.floor(Math.random()*items.length)];}
-      
-      const communityDoc = document.getElementById('community-background').contentDocument;
-      const ew = communityDoc.getElementById('empire_windows');
-      const windows = ew.children;
-      setInterval(function() {
-        turnOnLight(grabRandom(windows));
-      }, 500)
-    }
+    const cb = document.getElementById('community-background');
+    cb.addEventListener('load', this.setLightingInterval);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll.bind(this));
+    window.removeEventListener('scroll', this.handleScroll);
+    clearInterval(this.state.intervalId);
+
   }
 
-  handleScroll() {
+  handleScroll = () => {
     this.setState({pos2: window.scrollY >= window.innerHeight ? 'relative':'fixed'});
     this.setState({pos3: (window.scrollY >= (2*window.innerHeight)) ? 'relative':'fixed'});
     this.setState({pos4: (window.scrollY >= (3*window.innerHeight)) ? 'relative':'fixed'});
   }
 
+  setLightingInterval = () => {
+    const communityDoc = document.getElementById('community-background').contentDocument;
+    const ew = communityDoc.getElementById('empire_windows');
+    const windows = ew.children;
+    
+    let turnOnLight = (ele) => {
+      ele.style.fill="yellow";
+    }
+
+    let grabRandom = (items) => {
+      return items[Math.floor(Math.random()*items.length)];
+    }
+
+    let intervalId = setInterval(function() {
+      turnOnLight(grabRandom(windows));
+    }, 500);
+
+    this.setState({intervalId: intervalId});
+  }
 
   render() {
 
