@@ -1,9 +1,9 @@
 .section.events {
   color: #fff; }
 
-#community-background {
+#community-background, #event-background {
   position: absolute;
-  top: 0;
+  top: 20px;
   left: 50%;
   height: 100%;
   width: 100%;

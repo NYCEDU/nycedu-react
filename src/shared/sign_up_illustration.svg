@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="364px" height="121px" viewBox="0 0 364 121" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>sign_up_illustration1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="72" width="54.6328125" height="41.34375" rx="20.671875"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="54.6328125" height="41.34375" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="sign-up" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sign_up" transform="translate(-318.000000, -185.000000)" stroke="#689F38">
+            <g id="sign_up_illustration1" transform="translate(319.000000, 187.000000)">
+                <g id="coffee" transform="translate(81.000000, 0.000000)">
+                    <use id="Rectangle-16" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+                    <path d="M30.9523706,60.179554 C30.9523706,60.179554 18.9150183,54.982829 22.756586,37.016103 C26.5981538,19.049377 47.5441589,17.0293086 41.2515565,0" id="Path-24" stroke-width="3" stroke-linecap="round"></path>
+                    <path d="M53.674633,80.9321938 C53.674633,80.9321938 55.3295098,77.764684 61.1421605,78.7734891 C66.9548112,79.7822942 66.4332374,87.4014955 66.4332374,88.4673539 C66.4332374,89.5332122 65.4341337,98.9068008 52.4179688,101.53125" id="Path-25" stroke-width="3" stroke-linecap="round"></path>
+                </g>
+                <g id="books" transform="translate(168.000000, 66.000000)" stroke-width="3">
+                    <path d="M123.9954,46 L2.00459961,46 C0.897489814,46 0,45.1002873 0,44.0067126 L0,18.9932874 C0,17.8924252 0.889111205,17 2.00459961,17 L123.9954,17" id="Rectangle-2" stroke-linecap="round"></path>
+                    <path d="M118.5,17.5 L118.5,45.5" id="Line" stroke-linecap="square"></path>
+                    <path d="M121.029297,10 L15.7303133,10 C14.7746876,10 14,9.70205501 14,9.33991148 L14,1.0565729 C14,0.692016072 14.7674555,0.396484375 15.7303133,0.396484375 L121.029297,0.396484375" id="Rectangle-2-Copy" stroke-linecap="round"></path>
+                    <path d="M115.5,0.541386045 L115.5,8.65587958" id="Line-Copy" stroke-linecap="square"></path>
+                </g>
+                <g id="apple" transform="translate(189.000000, 15.000000)" stroke-width="3">
+                    <path d="M16,49.9978731 C30.7272727,50.1811396 32,38.4885585 32,27.4560896 C32,16.4236207 16.5454545,22.8744263 16.5454545,22.8744263 C16.5454545,22.8744263 0,16.4236207 0,27.4560896 C0,38.4885585 1.27272727,49.8146066 16,49.9978731 Z" id="Oval"></path>
+                    <path d="M16,24.8181818 L16,9.18181818" id="Line" stroke-linecap="round"></path>
+                    <path d="M30.9285714,14 C34.2817288,14 37,12.1862582 37,9 C37,5.81374183 34.2817288,4 30.9285714,4 C27.575414,4 20,9.19230769 20,9.19230769 C20,9.19230769 27.575414,14 30.9285714,14 Z" id="Oval-4" transform="translate(28.500000, 9.000000) rotate(-209.000000) translate(-28.500000, -9.000000) "></path>
+                </g>
+                <path d="M361.5,117.5 L0.494459876,117.5" id="Line" stroke-width="3" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

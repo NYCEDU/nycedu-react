@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './Home.css';
 import Section from './Section';
-import community from './community.svg';
+import communityIllustration from './community-illustration.svg';
+import eventIllustration from './events-illustration.svg'
 
 import DocumentTitle from 'react-document-title';
 
@@ -35,7 +36,7 @@ class Home extends Component {
       <div style={{height:'400vh'}}>
         <DocumentTitle title="Welcome to your community | #NYCEDU" />
         <Section className="community" zIndex={4} backgroundColor="#8bc34a" position='relative'>
-          <object id="community-background" type="image/svg+xml" data={community}>Your browser does not support svgs.</object>
+          <object id="community-background" type="image/svg+xml" data={communityIllustration}>Your browser does not support svgs.</object>
           <h1>#NYCEDU</h1>
           <p>We are a community of teachers, technologists, advocates, and administrators.</p>
           <p>We can do more and do better, together.</p>
@@ -71,6 +72,7 @@ class Home extends Component {
           </div>
         </Section>
         <Section className="events" zIndex={2} backgroundColor='#607d8b' position={this.state.pos3}>
+          <object id="event-background" type="image/svg+xml" data={eventIllustration}>Your browser does not support svgs.</object>
           <h1>#NYCEDU Events</h1>
           <p>We are a community of teachers, technologists, advocates, and administrators.</p>
           <p>We can do more and do better, together.</p>
