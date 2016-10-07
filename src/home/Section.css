@@ -3,7 +3,8 @@
   width: 100%;
   position: fixed;
   top: 0;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+  overflow: hidden;}
 
 .text-box {
   text-align: center;
