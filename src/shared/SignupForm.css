@@ -1,7 +1,31 @@
 .signup {
-  width: 400px;
+  max-width: 600px;
   min-height: 200px;
-  margin: 10px auto 50px; }
-
+  margin: 10px auto 50px;
+  text-align: center;}
+.signup h2 {
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 28px;
+  margin: 20px;
+}
+.signup p {
+  font-size: 20px;
+}
 .extendedForm {
   margin-bottom: 20px; }
+
+.signup-options {
+  display: flex;
+  margin: auto;
+  max-width: 600px;
+  text-align: left; }
+
+.option {
+  flex: 1 0 0;
+  width: 200px !important;
+  margin-right: 10px; }
+
+.option:last-child {
+  margin-right: 0;
+}

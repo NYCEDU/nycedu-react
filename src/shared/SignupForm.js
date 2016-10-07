@@ -6,43 +6,40 @@ import RaisedButton from 'material-ui/RaisedButton';
 import Checkbox from 'material-ui/Checkbox';
 import ActionFavorite from 'material-ui/svg-icons/action/favorite';
 import ActionFavoriteBorder from 'material-ui/svg-icons/action/favorite-border';
+import illustration from './sign_up_illustration.svg';
 
 class SignupForm extends Component {
-  state = {
-    formExpanded: false
-  };
-
-  expandForm() {
-    this.setState({formExpanded:true});
-  }
 
   render() {
-    let style = {
-      display: this.state.formExpanded ? 'block':'none'
-    }
     return (
       <form className="signup">
+        <img src={illustration} />
+        <h2>Join the community!</h2>
+        <p>Sign up to stay informed regarding all things education and NYC</p>
         <TextField
           hintText="Enter your email..."
           floatingLabelText="Email"
           type="email"
           id="email"
-          required={true}
-          onFocus={this.expandForm.bind(this)} />
-        <div className="extendedForm" style={style}>
-          <p>Select any other things you are interested in outside of the newsletter.</p>
-          <Checkbox
-            checkedIcon={<ActionFavorite />}
-            uncheckedIcon={<ActionFavoriteBorder />}
-            label="Climbing Group" />
-          <Checkbox
-            checkedIcon={<ActionFavorite />}
-            uncheckedIcon={<ActionFavoriteBorder />}
-            label="Brunch" />
-          <Checkbox
-            checkedIcon={<ActionFavorite />}
-            uncheckedIcon={<ActionFavoriteBorder />}
-            label="Slack" />
+          required={true} />
+        <div className="extendedForm">
+          <div className="signup-options">
+            <Checkbox
+              className="option"
+              checkedIcon={<ActionFavorite />}
+              uncheckedIcon={<ActionFavoriteBorder />}
+              label="Climbing Group" />
+            <Checkbox
+              className="option"
+              checkedIcon={<ActionFavorite />}
+              uncheckedIcon={<ActionFavoriteBorder />}
+              label="Brunch" />
+            <Checkbox
+              className="option"
+              checkedIcon={<ActionFavorite />}
+              uncheckedIcon={<ActionFavoriteBorder />}
+              label="Slack" />
+          </div>
         </div>
 
         <RaisedButton label="Join us!" primary={true} type="Submit" />
