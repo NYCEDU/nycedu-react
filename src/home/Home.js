@@ -20,6 +20,19 @@ class Home extends Component {
 
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll.bind(this));
+    
+    window.onload = function(){
+      let turnOnLight = function(ele){ele.style.fill="yellow"}
+
+      let grabRandom = function(items){return items[Math.floor(Math.random()*items.length)];}
+      
+      const communityDoc = document.getElementById('community-background').contentDocument;
+      const ew = communityDoc.getElementById('empire_windows');
+      const windows = ew.children;
+      setInterval(function() {
+        turnOnLight(grabRandom(windows));
+      }, 500)
+    }
   }
 
   componentWillUnmount() {
@@ -32,7 +45,9 @@ class Home extends Component {
     this.setState({pos4: (window.scrollY >= (3*window.innerHeight)) ? 'relative':'fixed'});
   }
 
+
   render() {
+
     return (
       <div style={{height:'400vh'}}>
         <DocumentTitle title="Welcome to your community | #NYCEDU" />
