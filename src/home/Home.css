@@ -1,5 +1,9 @@
-.section.events {
+.section.events, .section.community {
   color: #fff; }
+
+.see-our {
+  margin-top: 20px;
+}
 
 #community-background, #event-background {
   position: absolute;
@@ -9,3 +13,6 @@
   width: 100%;
   margin-left: -50%;
   z-index: -1; }
+
+.project-thumbnail {
+  width: 100%; }
