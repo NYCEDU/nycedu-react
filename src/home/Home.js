@@ -40,8 +40,12 @@ class Home extends Component {
 
   setLightingInterval = () => {
     const communityDoc = document.getElementById('community-background').contentDocument;
-    const ew = communityDoc.getElementById('empire_windows');
-    const windows = ew.children;
+    const ew = communityDoc.querySelectorAll('#empire_windows, #building1_windows, #building_4windows');
+    let windows = [];
+    for (var i = 0, len = ew.length; i < len; i++) {
+      let temp = [].slice.call(ew[i].children);
+      windows = windows.concat(temp);
+    }
     
     let turnOnLight = (ele) => {
       ele.style.fill="yellow";
@@ -53,7 +57,7 @@ class Home extends Component {
 
     let intervalId = setInterval(function() {
       turnOnLight(grabRandom(windows));
-    }, 500);
+    }, 200);
 
     this.setState({intervalId: intervalId});
   }
