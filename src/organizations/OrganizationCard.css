@@ -8,11 +8,14 @@
   overflow: hidden;
   height: 150px;
   width: 150px;
-  border: #757575 7px solid;
+  border: #757575 4px solid;
   background: #fff; }
 
 .organization h2 {
-  text-align: center; }
+  text-align: center;
+  min-height: 100px;
+  font-weight: normal;
+  color: #212121;}
 
 .organization p {
   display: block;

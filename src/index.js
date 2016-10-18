@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
-import './index.css';
 import './bootstrapGrid.css';
+import './index.css';
 
 import App from './App';
 import Home from './home/Home';
