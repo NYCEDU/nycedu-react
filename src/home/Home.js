@@ -86,31 +86,31 @@ class Home extends Component {
             <h1>Be a part of #NYCEDU</h1>
             <p>We are a community of teachers, technologists, advocates, and administrators.</p>
             <p>We can do more and do better, together.</p>
-            <div className="row">
-              <div className="col-sm-4">
-                <Paper>
-                  <img className="project-thumbnail" role="presentation" src={project1} />
-                  <h2>Hour of Code</h2>
-                  <p>Code Brooklyn</p>
-                  <p>Information about hour of code</p>
-                </Paper>
-              </div>
-              <div className="col-sm-4">
-                <Paper>
-                  <img className="project-thumbnail" role="presentation" src={project1} />
-                  <h2>Startup Weekend Edu</h2>
-                  <p>Code Brooklyn</p>
-                  <p>Information about hour of code</p>
-                </Paper>
-              </div>
-              <div className="col-sm-4">
-                <Paper>
-                  <img className="project-thumbnail" role="presentation" src={project1} />
-                  <h2>SXSWedu Ultimate List</h2>
-                  <p>Code Brooklyn</p>
-                  <p>Information about hour of code</p>
-                </Paper>
-              </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-4">
+              <Paper className="project">
+                <img className="project-thumbnail" role="presentation" src={project1} />
+                <h2>Hour of Code</h2>
+                <p>Code Brooklyn</p>
+                <p>Information about hour of code</p>
+              </Paper>
+            </div>
+            <div className="col-sm-4">
+              <Paper className="project">
+                <img className="project-thumbnail" role="presentation" src={project1} />
+                <h2>Startup Weekend Edu</h2>
+                <p>Code Brooklyn</p>
+                <p>Information about hour of code</p>
+              </Paper>
+            </div>
+            <div className="col-sm-4">
+              <Paper className="project">
+                <img className="project-thumbnail" role="presentation" src={project1} />
+                <h2>SXSWedu Ultimate List</h2>
+                <p>Code Brooklyn</p>
+                <p>Information about hour of code</p>
+              </Paper>
             </div>
           </div>
           <RaisedButton label="see our projects" className="see-our" primary={true} href="/projects" />

@@ -8,8 +8,4 @@
 
 .text-box {
   text-align: center;
-  min-height: 300px;
-  position: absolute;
-  top: 10%;
-  left: 0;
-  right: 0;}
+  margin: 100px auto 0; }

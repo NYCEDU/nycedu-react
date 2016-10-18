@@ -30,5 +30,25 @@
   top: 30%;
   width: 100%; }
 
+.project {
+  text-align: center;
+}
 .project-thumbnail {
-  width: 100%; }
+  float: none;
+  height: auto;
+  width: 100%;}
+
+@media (max-width: 768px) {
+  .project-thumbnail {
+    float: left;
+    height: 100px;
+    width: auto;
+    margin-right: 10px;
+  }
+  .project h2 {
+    text-align: left;
+  }
+  .project p {
+    text-align: left;
+  }
+}
