@@ -12,10 +12,8 @@ class Section extends Component {
            style={{zIndex          : this.props.zIndex,
                   backgroundColor : this.props.backgroundColor,
                   position        : this.props.position}}>
-        <div className="container">
-          <div className="text-box">
+        <div className="container">          
             {this.props.children}
-          </div>
         </div>
       </div>
     );

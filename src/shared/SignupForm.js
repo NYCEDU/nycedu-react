@@ -13,7 +13,7 @@ class SignupForm extends Component {
   render() {
     return (
       <form className="signup">
-        <img src={illustration} />
+        <img src={illustration} role="presentation" />
         <h2>Join the community!</h2>
         <p>Sign up to stay informed regarding all things education and NYC</p>
         <TextField

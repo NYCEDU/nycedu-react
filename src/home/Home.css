@@ -2,17 +2,33 @@
   color: #fff; }
 
 .see-our {
-  margin-top: 20px;
-}
-
-#community-background, #event-background {
   position: absolute;
-  top: 20px;
-  left: 50%;
+  bottom: 20%;
+  left: 0;
+  right: 0;
+  width: 200px;
+  margin: auto; }
+
+#community-background{
   height: 100%;
-  width: 100%;
-  margin-left: -50%;
+  max-width: 100%; }
+
+.home-backgrounds {
+  position: absolute;
+  margin: auto; 
+  left:0;
+  right: 0;
+  max-width: 1024px;
   z-index: -1; }
+
+#event-background {
+  top: 20px;
+  height: 100%;
+  width: 100%; }
+
+#organizations-background {
+  top: 30%;
+  width: 100%; }
 
 .project-thumbnail {
   width: 100%; }

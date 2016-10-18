@@ -9,4 +9,7 @@
 .text-box {
   text-align: center;
   min-height: 300px;
-  margin: 15% auto 0; }
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;}
