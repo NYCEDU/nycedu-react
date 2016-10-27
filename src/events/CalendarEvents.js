@@ -24,7 +24,7 @@ class CalendarEvents extends Component {
     return(
       <div className="events">
         <div>
-          <h2>This month</h2>
+          <h2>Upcoming</h2>
         </div>
         <dl className="events-list"> 
           {this.state.events.map(

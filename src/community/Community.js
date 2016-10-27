@@ -10,7 +10,7 @@ class Community extends Component {
       <div className="community-page container">
         <DocumentTitle title="Our community | #NYCEDU" />
         <h1>Community</h1>
-        <p>Here is some subcopy about how great our community is.</p>
+        <p>If you care about education in NYC, then you are already a member of #NYCEDU! Meet some of your fellow community members.</p>
         <SignupForm />
       </div>
     );

@@ -36,6 +36,7 @@
 .project-thumbnail {
   float: none;
   height: auto;
+  max-height: 370px;
   width: 100%;}
 
 @media (max-width: 768px) {
