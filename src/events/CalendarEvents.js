@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './CalendarEvents.css';
 import CalendarEvent from './CalendarEvent';
+import _ from 'lodash';
 
 class CalendarEvents extends Component {
 
@@ -9,11 +10,13 @@ class CalendarEvents extends Component {
   }
   
   componentDidMount() {
-    fetch('https://www.googleapis.com/calendar/v3/calendars/' + this.props.calendarID + '/events?key=' + this.props.apiKey)
+    const now = new Date().toISOString();
+    fetch('https://www.googleapis.com/calendar/v3/calendars/' + this.props.calendarID + '/events?timeMin='+now+'&key=' + this.props.apiKey)
     .then( (response) => {
       return response.json() })   
       .then( (json) => {
-        this.setState({events: json.items});
+        const events = _.orderBy(json.items, 'start[dateTime]','asc')
+        this.setState({events: events});
       });
   }
 
