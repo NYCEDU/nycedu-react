@@ -9,7 +9,7 @@ class OrganizationFeed extends Component {
   }
 
   componentDidMount() {
-    fetch('https://spreadsheets.google.com/feeds/list/1O-PXjyfgQg1kDjUhwajgiyAro-dolYYbPR9yfE3Mznc/od6/public/values?alt=json')
+    fetch('https://spreadsheets.google.com/feeds/list/17nmBELMdwT1ScV3j5Vt66wIzSphQhnhhQLdBJdP4oN8/od6/public/values?alt=json')
     .then( (response) => {
       return response.json() })   
       .then( (json) => {
