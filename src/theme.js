@@ -16,6 +16,9 @@ const theme = getMuiTheme({
   appBar: {
     height: 50,
   },
+  button :{
+    textTransform: 'capitalize'
+  },
 });
 
 export default theme;

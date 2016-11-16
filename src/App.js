@@ -9,6 +9,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 // injectTapEventPlugin();
 import AppBar from 'material-ui/AppBar';
 import Drawer from 'material-ui/Drawer';
+import FlatButton from 'material-ui/FlatButton';
 import MenuItem from 'material-ui/MenuItem';
 import theme from './theme';
 
@@ -19,11 +20,11 @@ class App extends Component {
     open: false
   }
 
-  handleToggle(){
+  handleToggle = () => {
     this.setState({open: !this.state.open});
   }
 
-  handleClose(){
+  handleClose = () => {
     this.setState({open: false});
   }
 
@@ -32,12 +33,11 @@ class App extends Component {
       <MuiThemeProvider muiTheme={theme}>
         <div className="App">
           <DocumentTitle title="NYCEDU: Making a difference in NYC together" />
-          <AppBar title={<a href="/"
-                            className="home-button">
-                              {this.props.children.props.route.title + ' - #nycedu'}
-                          </a>}
-                  onLeftIconButtonTouchTap={this.handleToggle.bind(this)}
-                  style={{position:'fixed', top: 0}} />
+          <AppBar style={{position:'fixed', top: 0, textAlign:'center'}}
+            title={
+              <a href="/" className="home-button"> {this.props.children.props.route.title + ' - #nycedu'} </a>}
+            onLeftIconButtonTouchTap={this.handleToggle}
+            iconElementRight={<FlatButton label="Sign Up"/>} />
           <Drawer
             docked={false}
             width={200}
