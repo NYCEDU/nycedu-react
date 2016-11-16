@@ -4,25 +4,32 @@ a {
   color: #8BC34A;
   text-decoration: none;
 }
+
 a:hover,
 a:focus {
   color: #8BC34A;
   text-decoration: underline;
 }
+
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
+
 a:visited{
   color:#689F38;
 }
 
+.appbar-icons{
+  color: white;
+}
+
 .home-button {
-  text-align: center;
   display: block;
   text-decoration: none;
   color: #fff;
 }
+
 .home-button:hover{
   color: #fff;
   text-decoration: underline;

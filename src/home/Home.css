@@ -15,7 +15,7 @@
 
 .home-backgrounds {
   position: absolute;
-  margin: auto; 
+  margin: auto;
   left:0;
   right: 0;
   max-width: 1024px;
@@ -32,12 +32,18 @@
 
 .project {
   text-align: center;
+
 }
 .project-thumbnail {
   float: none;
   height: auto;
   max-height: 370px;
-  width: 100%;}
+  width: 100%;
+}
+
+.project-content{
+  padding: 10px 20px 20px;
+}
 
 @media (max-width: 768px) {
   .project-thumbnail {

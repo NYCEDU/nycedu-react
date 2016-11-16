@@ -9,10 +9,10 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 // injectTapEventPlugin();
 import AppBar from 'material-ui/AppBar';
 import Drawer from 'material-ui/Drawer';
+import IconButton from 'material-ui/IconButton';
 import FlatButton from 'material-ui/FlatButton';
 import MenuItem from 'material-ui/MenuItem';
 import theme from './theme';
-
 
 class App extends Component {
 
@@ -29,15 +29,48 @@ class App extends Component {
   }
 
   render() {
+
+    var buttonStyle = {
+      color: '#8BC34A',
+      backgroundColor: 'white',
+      verticalAlign: 'text-bottom'
+    };
+
+    const rightButtons = (
+      <div>
+        <IconButton
+          iconClassName="material-icons"
+          tooltip="Share on Facebook"
+          iconStyle={{
+            color:'#fff'
+          }}
+          touch="true"
+          >
+          face
+        </IconButton>
+        <IconButton
+          iconClassName="material-icons"
+          tooltip="Share on Twitter"
+          iconStyle={{
+            color:'#fff'
+          }}
+          touch="true"
+          >
+          Book
+        </IconButton>
+        <FlatButton label="Sign Up" style={buttonStyle}/>
+      </div>
+    );
+
     return (
       <MuiThemeProvider muiTheme={theme}>
         <div className="App">
           <DocumentTitle title="NYCEDU: Making a difference in NYC together" />
-          <AppBar style={{position:'fixed', top: 0, textAlign:'center'}}
+          <AppBar style={{position:'fixed', top: 0}}
             title={
               <a href="/" className="home-button"> {this.props.children.props.route.title + ' - #nycedu'} </a>}
             onLeftIconButtonTouchTap={this.handleToggle}
-            iconElementRight={<FlatButton label="Sign Up"/>} />
+            iconElementRight={rightButtons} />
           <Drawer
             docked={false}
             width={200}
