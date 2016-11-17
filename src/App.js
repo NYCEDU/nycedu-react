@@ -33,30 +33,33 @@ class App extends Component {
     var buttonStyle = {
       color: '#8BC34A',
       backgroundColor: 'white',
-      verticalAlign: 'text-bottom'
     };
 
     const rightButtons = (
       <div>
         <IconButton
           iconClassName="material-icons"
-          tooltip="Share on Facebook"
+          tooltip="NYCEDU on Facebook"
           iconStyle={{
             color:'#fff'
           }}
           touch="true"
+          href="http://www.facebook.com/hellonycedu/"
+          target="_blank"
           >
           face
         </IconButton>
         <IconButton
           iconClassName="material-icons"
-          tooltip="Share on Twitter"
+          tooltip="NYCEDU on Twitter"
           iconStyle={{
             color:'#fff'
           }}
           touch="true"
+          href="https://twitter.com/NYCEDUretweets"
+          target="_blank"
           >
-          Book
+          home
         </IconButton>
         <FlatButton label="Sign Up" style={buttonStyle}/>
       </div>
