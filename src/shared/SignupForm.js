@@ -7,10 +7,16 @@ import illustration from './sign_up_illustration.svg';
 
 class SignupForm extends Component {
 
+  static defaultProps = {
+    displayImage: true
+  }
+
   render() {
+    const displayImage = this.props.displayImage;
+    let signupImageElement = displayImage === true ? <img src={illustration} role="presentation" />  : '';
     return (
       <form className="signup">
-        <img src={illustration} role="presentation" />
+      {signupImageElement}
         <h2>Join the community!</h2>
         <p>Sign up to stay informed regarding all things education and NYC</p>
         <TextField

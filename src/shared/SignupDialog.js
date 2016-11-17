@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Dialog from 'material-ui/Dialog';
+import SignupForm from './SignupForm';
 import FlatButton from 'material-ui/FlatButton';
 
 export default class SignupDialog extends Component {
@@ -24,31 +25,15 @@ export default class SignupDialog extends Component {
       margin: '8px'
     };
 
-    const actions = [
-      <FlatButton
-        label="Cancel"
-        primary={true}
-        onTouchTap={this.handleClose}
-      />,
-      <FlatButton
-        label="Submit"
-        primary={true}
-        keyboardFocused={true}
-        onTouchTap={this.handleClose}
-      />,
-    ];
-
     return (
       <span>
         <FlatButton label="Sign Up" onTouchTap={this.handleOpen} style={buttonStyle}/>
         <Dialog
-          title="Dialog With Actions"
-          actions={actions}
           modal={false}
           open={this.state.open}
           onRequestClose={this.handleClose}
         >
-          The actions in this window were passed in as an array of React objects.
+          <SignupForm displayImage={false} />
         </Dialog>
       </span>
     );
