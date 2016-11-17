@@ -9,10 +9,11 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 // injectTapEventPlugin();
 import AppBar from 'material-ui/AppBar';
 import Drawer from 'material-ui/Drawer';
-import IconButton from 'material-ui/IconButton';
 import FlatButton from 'material-ui/FlatButton';
 import MenuItem from 'material-ui/MenuItem';
 import theme from './theme';
+import iconFacebook from './icon-facebook.svg';
+import iconTwitter from './icon-twitter.svg';
 
 class App extends Component {
 
@@ -33,34 +34,38 @@ class App extends Component {
     var buttonStyle = {
       color: '#8BC34A',
       backgroundColor: 'white',
+      margin: '8px'
     };
+
+    var iconStyle = {
+      fill: 'white',
+      height: '24px',
+      padding: '8px',
+      boxSizing: 'content-box'
+    }
 
     const rightButtons = (
       <div>
-        <IconButton
-          iconClassName="material-icons"
-          tooltip="NYCEDU on Facebook"
-          iconStyle={{
-            color:'#fff'
-          }}
-          touch="true"
+        <a
           href="http://www.facebook.com/hellonycedu/"
           target="_blank"
-          >
-          face
-        </IconButton>
-        <IconButton
-          iconClassName="material-icons"
-          tooltip="NYCEDU on Twitter"
-          iconStyle={{
-            color:'#fff'
-          }}
-          touch="true"
+        >
+          <img
+            src={iconFacebook}
+            role="presentation"
+            style={iconStyle}
+          />
+        </a>
+        <a
           href="https://twitter.com/NYCEDUretweets"
           target="_blank"
-          >
-          home
-        </IconButton>
+        >
+          <img
+            src={iconTwitter}
+            role="presentation"
+            style={iconStyle}
+          />
+        </a>
         <FlatButton label="Sign Up" style={buttonStyle}/>
       </div>
     );
