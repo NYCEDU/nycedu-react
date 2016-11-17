@@ -9,8 +9,8 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
 import AppBar from 'material-ui/AppBar';
 import Drawer from 'material-ui/Drawer';
-import FlatButton from 'material-ui/FlatButton';
 import MenuItem from 'material-ui/MenuItem';
+import SignupDialog from './shared/SignupDialog';
 import theme from './theme';
 import iconFacebook from './icon-facebook.svg';
 import iconTwitter from './icon-twitter.svg';
@@ -21,21 +21,15 @@ class App extends Component {
     open: false
   }
 
-  handleToggle = () => {
-    this.setState({open: !this.state.open});
-  }
+  handleOpen = () => {
+    this.setState({open: true});
+  };
 
   handleClose = () => {
     this.setState({open: false});
-  }
+  };
 
   render() {
-
-    var buttonStyle = {
-      color: '#8BC34A',
-      backgroundColor: 'white',
-      margin: '8px'
-    };
 
     var iconStyle = {
       fill: 'white',
@@ -66,7 +60,7 @@ class App extends Component {
             style={iconStyle}
           />
         </a>
-        <FlatButton label="Sign Up" style={buttonStyle}/>
+        <SignupDialog />
       </div>
     );
 
@@ -77,7 +71,7 @@ class App extends Component {
           <AppBar style={{position:'fixed', top: 0}}
             title={
               <a href="/" className="home-button"> {this.props.children.props.route.title + ' - #nycedu'} </a>}
-            onLeftIconButtonTouchTap={this.handleToggle}
+            onLeftIconButtonTouchTap={this.handleOpen}
             iconElementRight={rightButtons} />
           <Drawer
             docked={false}
@@ -96,4 +90,3 @@ class App extends Component {
   }
 }
 export default App;
-
