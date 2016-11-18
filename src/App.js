@@ -10,6 +10,7 @@ injectTapEventPlugin();
 import AppBar from 'material-ui/AppBar';
 import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
+import Snackbar from 'material-ui/Snackbar';
 import SignupDialog from './shared/SignupDialog';
 import theme from './theme';
 import iconFacebook from './icon-facebook.svg';
@@ -18,7 +19,10 @@ import iconTwitter from './icon-twitter.svg';
 class App extends Component {
 
   state = {
-    open: false
+    open: false,
+    toastMessage: '',
+    toastColor: '#000',
+    toastOpen: false
   }
 
   handleOpen = () => {
@@ -28,6 +32,14 @@ class App extends Component {
   handleClose = () => {
     this.setState({open: false});
   };
+
+  handleToast = (msg, color) => {
+    this.setState({
+      toastMessage: msg,
+      toastColor: color,
+      toastOpen: true
+    });
+  }
 
   render() {
 
@@ -60,7 +72,7 @@ class App extends Component {
             style={iconStyle}
           />
         </a>
-        <SignupDialog />
+        <SignupDialog handleToast={this.handleToast} />
       </div>
     );
 
@@ -83,7 +95,12 @@ class App extends Component {
             <MenuItem leftIcon={<i className="material-icons">event</i>} href="/events">Events</MenuItem>
             <MenuItem leftIcon={<i className="material-icons">account_balance</i>} href="/organizations">Organizations</MenuItem>
           </Drawer>
-          {this.props.children}
+          { React.cloneElement(this.props.children, {handleToast: this.handleToast}) }
+           <Snackbar
+            open={this.state.toastOpen}
+            message={this.state.toastMessage}
+            autoHideDuration={4000}
+          />
         </div>
       </MuiThemeProvider>
     );

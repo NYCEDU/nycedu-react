@@ -11,7 +11,7 @@ class Community extends Component {
         <DocumentTitle title="Our community | #NYCEDU" />
         <h1>Community</h1>
         <p>If you care about education in NYC, then you are already a member of #NYCEDU! Meet some of your fellow community members.</p>
-        <SignupForm />
+        <SignupForm handleSubmission={this.props.handleToast} />
       </div>
     );
   }

@@ -18,6 +18,11 @@ export default class SignupDialog extends Component {
     this.setState({open: false});
   };
 
+  handleSubmission = (msg, color) => {
+    this.setState({open: false});
+    this.props.handleToast(msg, color);
+  }
+
   render() {
     var buttonStyle = {
       color: '#8BC34A',
@@ -33,7 +38,7 @@ export default class SignupDialog extends Component {
           open={this.state.open}
           onRequestClose={this.handleClose}
         >
-          <SignupForm displayImage={false} />
+          <SignupForm displayImage={false} handleSubmission={this.handleSubmission} />
         </Dialog>
       </span>
     );
