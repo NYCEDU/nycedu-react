@@ -17,6 +17,7 @@ class SignupForm extends Component {
   submit = (e) => {
     e.preventDefault();
     //How do we get the submitted values
+    const that = this;
     const url = this.refs.form.action; //Should get action from form
     let email = this.refs.email.input.value;
     email = '&EMAIL=' + encodeURIComponent(email);
@@ -24,13 +25,19 @@ class SignupForm extends Component {
       jsonpCallback: 'c'
     })
       .then(function(response){
-        // handle errors or success
-        console.log('response', response);
         return response.json();
       })
       .then(function(json){
-        console.log('parsed', json)
+        if (json.result === 'success'){
+          that.props.handleSubmission(json.msg, '#000');
+        } else {
+          //trigger our inline error message
+          //pass in json.result.msg
+        }
       })
+      .catch(function(error){
+        //trigger our inline error message
+      });
   }
 
   render() {
