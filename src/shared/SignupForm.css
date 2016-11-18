@@ -29,3 +29,7 @@
 .option:last-child {
   margin-right: 0;
 }
+
+.inline-form-button{
+  margin-bottom: 50px;
+}

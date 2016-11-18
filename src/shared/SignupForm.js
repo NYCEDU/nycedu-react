@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './SignupForm.css';
 
 import TextField from 'material-ui/TextField';
-import RaisedButton from 'material-ui/RaisedButton';
+import FlatButton from 'material-ui/FlatButton';
 import illustration from './sign_up_illustration.svg';
 
 class SignupForm extends Component {
@@ -25,7 +25,7 @@ class SignupForm extends Component {
           type="email"
           id="email"
           required={true} />
-        <RaisedButton label="Join us!" primary={true} type="Submit" />
+        <FlatButton style={{verticalAlign:"4px"}} label="Submit" hoverColor="#80BB41" type="Submit" />
       </form>
     );
   }
