@@ -13,6 +13,10 @@ class SignupForm extends Component {
     displayImage: true
   }
 
+  state = {
+    errors: ''
+  }
+
   // Ideal stolen from here: https://stackoverflow.com/questions/8425701/ajax-mailchimp-signup-form-integration
   submit = (e) => {
     e.preventDefault();
@@ -31,26 +35,32 @@ class SignupForm extends Component {
         if (json.result === 'success'){
           that.props.handleSubmission(json.msg, '#000');
         } else {
-          //trigger our inline error message
-          //pass in json.result.msg
+          that.setState({errors: json.msg});
         }
       })
       .catch(function(error){
-        //trigger our inline error message
+        that.setState({errors: 'We are having trouble making this request. Try again later.'});
       });
+  }
+
+  createErrorMarkup = (message) => {
+    return {__html: message};
   }
 
   render() {
     const displayImage = this.props.displayImage;
     let signupImageElement = displayImage === true ? <img src={illustration} role="presentation" />  : '';
+    const errorMarkup = this.createErrorMarkup(this.state.errors);
+    const error = <div className="error" style={{color:"red"}} dangerouslySetInnerHTML={errorMarkup} />;
     return (
       <form className="signup"
             ref="form"
             onSubmit={this.submit}
             action="https://nycedu.us3.list-manage.com/subscribe/post-json?u=90a5dc9bbb2a0b4a2c2a306e8&amp;id=f88af4fc14" method="get" >
-      {signupImageElement}
+        {signupImageElement}
         <h2>Join the community!</h2>
         <p>Sign up to stay informed regarding all things education and NYC</p>
+        {error}
         <TextField
           hintText="Enter your email..."
           floatingLabelText="Email"
