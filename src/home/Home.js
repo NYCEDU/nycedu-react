@@ -23,7 +23,7 @@ class Home extends Component {
 
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll);
-    
+
     const cb = document.getElementById('community-background');
     cb.addEventListener('load', this.setLightingInterval);
   }
@@ -48,7 +48,7 @@ class Home extends Component {
       let temp = [].slice.call(ew[i].children);
       windows = windows.concat(temp);
     }
-    
+
     let turnOnLight = (ele) => {
       if (ele.style.fill === 'yellow'){
         ele.style.fill = '';
@@ -89,16 +89,20 @@ class Home extends Component {
           <div className="row">
             <div className="col-sm-6">
               <Paper className="project">
-                <img className="project-thumbnail" role="presentation" src={project1} />
-                <h2>Startup Weekend Education NYC</h2>
-                <p>Startup Weekend Education brings educators, business people, designers, and developers together to collaborative launch tools that reimagine the future of school and education.</p>
+                <img className="project-thumbnail" role="presentation" style={{backgroundImage: 'url(' + startupWeekend + ')' }}/>
+                <div className="project-content">
+                  <h2>Startup Weekend Education NYC</h2>
+                  <p>Startup Weekend Education brings educators, business people, designers, and developers together to collaborative launch tools that reimagine the future of school and education.</p>
+                </div>
               </Paper>
             </div>
             <div className="col-sm-6">
               <Paper className="project">
-                <img className="project-thumbnail" role="presentation" src={startupWeekend} />
-                <h2>Design 4 Impact</h2>
-                <p>D4i is a student-led startup that brings social impact projects to K12 schools via design challenges, an online curriculum, and meetups. It is currently incubated at Avenues: The World School.</p>
+                <img className="project-thumbnail" role="presentation" style={{backgroundImage: 'url(' + project1 + ')' }} />
+                <div className="project-content">
+                  <h2>Design 4 Impact</h2>
+                  <p>D4i is a student-led startup that brings social impact projects to K12 schools via design challenges, an online curriculum, and meetups. It is currently incubated at Avenues: The World School.</p>
+                </div>
               </Paper>
             </div>
           </div>
