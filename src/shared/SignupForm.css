@@ -1,7 +1,7 @@
 .signup {
   max-width: 600px;
   min-height: 200px;
-  margin: 10px auto 50px;
+  margin: 0 auto;
   text-align: center;}
 .signup h2 {
   font-weight: normal;
@@ -28,4 +28,8 @@
 
 .option:last-child {
   margin-right: 0;
+}
+
+.inline-form-button{
+  margin-bottom: 50px;
 }

@@ -35,5 +35,9 @@ a:visited{
   text-decoration: underline;
 }
 
+.home-button:visited{
+  color: #fff;
+}
+
 h1 {
   text-align: center; }
