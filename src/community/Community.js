@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './Community.css';
 import {Card, CardMedia, CardTitle, CardText} from 'material-ui/Card';
-import SignupForm from '../shared/SignupForm';
+import SignupForm from '../shared/SignupForm'
+import sky from './sky.svg';
+import middleLandscape from './middle_landscape.svg';
 import deborah from './deborah.jpg';
 import eugene from './eugene.png';
 import sean from './sean.png';
@@ -13,6 +15,7 @@ class Community extends Component {
     return (
       <div className="community-page container">
         <DocumentTitle title="Our community | #NYCEDU" />
+        <object id="sky-background" className="community-backgrounds" type="image/svg+xml" data={sky}>Your browser does not support svgs.</object>
         <h1>Community</h1>
         <p>If you care about education in NYC, then you are already a member of #NYCEDU! Meet some of your fellow community members.</p>
         <div className="member-container">
@@ -65,7 +68,8 @@ class Community extends Component {
             </CardText>
           </Card>
         </div>
-        <Card style={{padding: "25px"}}>
+        <object id="middle-background" className="community-backgrounds" type="image/svg+xml" data={middleLandscape}>Your browser does not support svgs.</object>
+        <Card style={{padding: "25px", marginBottom: "100px"}}>
           <SignupForm handleSubmission={this.props.handleToast} />
         </Card>
       </div>
