@@ -68,8 +68,9 @@ class SignupForm extends Component {
           id="email"
           name="EMAIL"
           ref="email"
-          required={true} />
-          <div style={{position: 'absolute', left: '-5000px'}} ariaHidden="true"><input type="text" name="b_90a5dc9bbb2a0b4a2c2a306e8_f88af4fc14" tabIndex="-1" value="" /></div>
+          required={true}
+          autoFocus/>
+          <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true"><input type="text" name="b_90a5dc9bbb2a0b4a2c2a306e8_f88af4fc14" tabIndex="-1" value="" /></div>
         <FlatButton style={{verticalAlign:"4px"}} label="Submit" hoverColor="#80BB41" type="Submit" />
       </form>
     );

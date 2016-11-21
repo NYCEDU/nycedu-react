@@ -1,6 +1,9 @@
 .section.events, .section.community {
   color: #fff; }
 
+.section.events h1, .section.community h1 {
+  color: #fff; }
+
 .see-our {
   position: absolute;
   bottom: 20%;

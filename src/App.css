@@ -1,3 +1,18 @@
+h1,h2,h3{
+  color: #8BC34A;
+  font-weight: bold;
+}
+
+h1{
+  padding: 20px 0;
+  font-size: 28px;
+}
+
+
+h1 + p{
+  text-align: center;
+  margin-bottom: 50px;
+}
 /*Link Stlyes - Overrides bootstrapGrid.css*/
 
 a {
