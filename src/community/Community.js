@@ -17,19 +17,19 @@ export default class Community extends Component {
         name: "Deborah Chang",
         imageUrl: deborah,
         buildCommunity: "I founded #NYCEDU to connect everyone with everyone in NYC education.",
-        getInvolved: <p>Subscribe to the newsletter to learn more.</p>
+        getInvolved: <p><a href="#SignupForm" name="SignupForm">Subscribe</a> to the newsletter to learn more.</p>
       },
       {
         name: "Eugene Leventhal",
         imageUrl: eugene,
         buildCommunity: "I started the Bronx Education Meetup group to help connect those involved in education in the Bronx. I’m also working on EduDAO, a blockchain educational funding project.",
-        getInvolved: <p>Sign up for the <a href="https://www.meetup.com/Bronx-Education-Meetup/">meetup</a> or email me at <a href="mailto:eugene.leventhal@gmail.com">eugene.leventhal@gmail.com</a>.</p>
+        getInvolved: <p>Sign up for the <a target="_blank" href="https://www.meetup.com/Bronx-Education-Meetup/">meetup</a> or email me at <a href="mailto:eugene.leventhal@gmail.com">eugene.leventhal@gmail.com</a>.</p>
       },
       {
         name: "Sean Perkins",
         imageUrl: sean,
-        buildCommunity: "I started the Bronx Education Meetup group to help connect those involved in education in the Bronx. I’m also working on EduDAO, a blockchain educational funding project.",
-        getInvolved: <p>Sign up for the meetup or email me at eugene.leventhal@gmail.com.</p>
+        buildCommunity: "I am working to ensure the technology we create for NYCEDU stays open and maintainable by the community. I also like to help folks that are new to software development get started in the field.",
+        getInvolved: <p>Check out the #NYCEDU <a target="_blank" href="https://github.com/NYCEDU/">Github repo</a> to see whats being created by our community. Interact with others in the <a target="_blank" href="https://nycedu.slack.com/messages/we_are_developers/">#we_are_developers</a> channel in Slack.</p>
       },
     ];
     const communityMembers = people.map((person) => {
@@ -64,7 +64,7 @@ export default class Community extends Component {
         </div>
         <object id="middle-background" className="community-backgrounds" type="image/svg+xml" data={middleLandscape}>Your browser does not support svgs.</object>
         <Card style={{padding: "25px", margin: "0 auto 100px", maxWidth: "800px"}}>
-          <SignupForm handleSubmission={this.props.handleToast} />
+          <SignupForm id="SignupForm" handleSubmission={this.props.handleToast} />
         </Card>
       </div>
     );
