@@ -1,5 +1,47 @@
 .community-page {
   margin-top: 50px; }
 
-p {
-  text-align: center; }
+.member-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 150px;
+}
+
+.member-container .card{
+  max-width: 100%;
+  width: 300px;
+  margin-bottom: 50px;
+}
+
+.member-container p{
+  text-align: left;
+}
+
+.member-container h3{
+  margin-top: 0;
+}
+
+.community-backgrounds {
+  position: absolute;
+  margin: auto;
+  left:0;
+  right: 0;
+  max-width: 1024px;
+  z-index: -1;
+}
+
+#sky-background {
+  top: -35%;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+}
+
+#middle-background {
+  top: 50%;
+  height: 75%;
+  width: 100%;
+  opacity: 0.5;
+}
