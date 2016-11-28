@@ -22,8 +22,7 @@ class Home extends Component {
   }
 
   componentDidMount() {
-    if (window.innerHeight >= 500) {
-      console.log('listening');
+    if (window.innerHeight >= 750) {
       window.addEventListener('scroll', this.handleScroll);
     }
 

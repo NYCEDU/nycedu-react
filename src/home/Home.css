@@ -42,7 +42,7 @@
   width: 100%;
   max-height: 100%;
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 .project-content{
@@ -50,6 +50,33 @@
 }
 
 @media (max-width: 768px) {
+  .project-thumbnail {
+    float: left;
+    height: 100px;
+    width: auto;
+    margin-right: 10px;
+  }
+  .project h2 {
+    text-align: left;
+  }
+  .project p {
+    text-align: left;
+  }
+}
+
+
+/*Added to fix viewport display issues on devices with heights smaller than 800px*/
+@media (max-height: 850px) {
+  .projects{
+    padding-bottom: 50px;
+  }
+  .project-thumbnail {
+    height: 250px;
+
+  }
+}
+
+@media (max-height:725px) and (min-height:500px) {
   .project-thumbnail {
     float: left;
     height: 100px;
