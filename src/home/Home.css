@@ -49,6 +49,10 @@
   padding: 10px 20px 20px;
 }
 
+#mailinglist-background{
+  height: 100%;
+  max-width: 100%; }
+
 @media (max-width: 768px) {
   .project-thumbnail {
     float: left;
