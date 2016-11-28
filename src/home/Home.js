@@ -15,14 +15,17 @@ import Paper from 'material-ui/Paper';
 class Home extends Component {
 
   state = {
-    pos2: 'fixed',
-    pos3: 'fixed',
-    pos4: 'fixed',
+    pos2: 'relative',
+    pos3: 'relative',
+    pos4: 'relative',
     intervalId: null
   }
 
   componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
+    if (window.innerHeight >= 500) {
+      console.log('listening');
+      window.addEventListener('scroll', this.handleScroll);
+    }
 
     const cb = document.getElementById('community-background');
     cb.addEventListener('load', this.setLightingInterval);
