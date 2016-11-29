@@ -48,13 +48,10 @@
   background-position: top;
 }
 
-.project-content{
+.project-content {
   padding: 10px 20px 20px;
 }
 
-#mailinglist-background{
-  height: 100%;
-  max-width: 100%; }
 
 @media (max-width: 768px) {
   .project-thumbnail {
@@ -79,7 +76,9 @@
   }
   .project-thumbnail {
     height: 250px;
-
+  }
+  .contact img {
+    display: none;
   }
 }
 

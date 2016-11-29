@@ -129,8 +129,11 @@ class Home extends Component {
           </div>
           <RaisedButton label="see our organizations" className="see-our" href="/organizations" />
         </Section>
-        <Section className="mailinglist" zIndex={1} backgroundColor='#fff' position={this.state.pos5}>
-          <div id="mailinglist-background"/>
+        <Section className="contact" zIndex={1} backgroundColor='#fff' position={this.state.pos5}>
+          <div className="text-box">
+            <h1>Contact Us</h1>
+            <p>Need to reach out to someone from #NYCEDU, send an email to: <a href="mailto:hello@nycedu.org">hello@nycedu.org</a>.</p>
+          </div>
           <Card style={{padding: "25px", margin: "100px auto 100px", maxWidth: "600px"}}>
             <SignupForm/>
           </Card>
