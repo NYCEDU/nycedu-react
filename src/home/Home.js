@@ -6,6 +6,8 @@ import eventIllustration from './events-illustration.svg';
 import organizationsIllustration from './organizations-illustration.svg';
 import startupWeekend from './startup_weekend.jpg';
 import project1 from './project1.png';
+import Card from 'material-ui/Card';
+import SignupForm from '../shared/SignupForm'
 
 import DocumentTitle from 'react-document-title';
 
@@ -15,14 +17,17 @@ import Paper from 'material-ui/Paper';
 class Home extends Component {
 
   state = {
-    pos2: 'fixed',
-    pos3: 'fixed',
-    pos4: 'fixed',
+    pos2: 'relative',
+    pos3: 'relative',
+    pos4: 'relative',
+    pos5: 'relative',
     intervalId: null
   }
 
   componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
+    if (window.innerHeight >= 600) {
+      window.addEventListener('scroll', this.handleScroll);
+    }
 
     const cb = document.getElementById('community-background');
     cb.addEventListener('load', this.setLightingInterval);
@@ -38,6 +43,7 @@ class Home extends Component {
     this.setState({pos2: window.scrollY >= window.innerHeight ? 'relative':'fixed'});
     this.setState({pos3: (window.scrollY >= (2*window.innerHeight)) ? 'relative':'fixed'});
     this.setState({pos4: (window.scrollY >= (3*window.innerHeight)) ? 'relative':'fixed'});
+    this.setState({pos5: (window.scrollY >= (4*window.innerHeight)) ? 'relative':'fixed'});
   }
 
   setLightingInterval = () => {
@@ -71,9 +77,9 @@ class Home extends Component {
   render() {
 
     return (
-      <div style={{height:'400vh'}}>
+      <div style={{height:'500vh'}}>
         <DocumentTitle title="Welcome to your community | #NYCEDU" />
-        <Section className="community" zIndex={4} backgroundColor="#8bc34a" position='relative'>
+        <Section className="community" zIndex={5} backgroundColor="#8bc34a" position='relative'>
           <object id="community-background" className="home-backgrounds" type="image/svg+xml" data={communityIllustration}>Your browser does not support svgs.</object>
           <div className="text-box">
             <h1>#NYCEDU</h1>
@@ -81,7 +87,7 @@ class Home extends Component {
           </div>
           <RaisedButton label="see our community" className="see-our" href="/community" />
         </Section>
-        <Section className="projects" zIndex={3} backgroundColor='#fff' position={this.state.pos2}>
+        <Section className="projects" zIndex={4} backgroundColor='#fff' position={this.state.pos2}>
           <div className="text-box">
             <h1>See Our Initiatives</h1>
             <p>Our community volunteers support initiatives that impact over 500 educators, entrepreneurs, teachers, and students.</p>
@@ -107,7 +113,7 @@ class Home extends Component {
             </div>
           </div>
         </Section>
-        <Section className="events" zIndex={2} backgroundColor='#607d8b' position={this.state.pos3}>
+        <Section className="events" zIndex={3} backgroundColor='#607d8b' position={this.state.pos3}>
           <object id="event-background" className="home-backgrounds" type="image/svg+xml" data={eventIllustration}>Your browser does not support svgs.</object>
           <div className="text-box">
             <h1>NYC Education Events</h1>
@@ -115,7 +121,7 @@ class Home extends Component {
           </div>
           <RaisedButton label="see our events" className="see-our" href="/events" />
         </Section>
-        <Section className="organizations" zIndex={1} backgroundColor='#dcedc8' position={this.state.pos4}>
+        <Section className="organizations" zIndex={2} backgroundColor='#dcedc8' position={this.state.pos4}>
           <object id="organizations-background" className="home-backgrounds" type="image/svg+xml" data={organizationsIllustration}>Your browser does not support svgs.</object>
           <div className="text-box">
             <h1>NYC Education Organizations</h1>
@@ -123,6 +129,15 @@ class Home extends Component {
           </div>
           <RaisedButton label="see our organizations" className="see-our" href="/organizations" />
         </Section>
+        <Section className="contact" zIndex={1} backgroundColor='#fff' position={this.state.pos5}>
+          <div className="text-box">
+            <h1>Contact Us</h1>
+            <p>Need to reach out to someone from #NYCEDU, send an email to: <a href="mailto:hello@nycedu.org">hello@nycedu.org</a>.</p>
+          </div>
+          <Card style={{padding: "25px", margin: "100px auto 100px", maxWidth: "600px"}}>
+            <SignupForm/>
+          </Card>
+        </Section >
       </div>
     );
   }

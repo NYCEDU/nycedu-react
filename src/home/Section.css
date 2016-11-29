@@ -14,3 +14,18 @@
 .text-box p {
   font-size: 20px
 }
+
+/*Added to fix viewport display issues on devices with heights smaller than 500px*/
+@media (max-height: 600px) {
+  .section{
+    min-height: 100vh;
+    height: auto;
+    position: relative;
+  }
+  .text-box {
+    text-align: center;
+    margin: 50px auto 0;
+    max-width: 600px;
+  }
+
+}

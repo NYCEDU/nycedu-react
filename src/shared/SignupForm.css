@@ -3,6 +3,9 @@
   min-height: 200px;
   margin: 0 auto;
   text-align: center;}
+.signup img {
+  max-width: 100%;
+}
 .signup h2 {
   font-weight: normal;
   font-size: 26px;
