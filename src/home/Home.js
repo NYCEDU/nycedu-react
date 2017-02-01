@@ -74,6 +74,10 @@ class Home extends Component {
     this.setState({intervalId: intervalId});
   }
 
+  handleSubscribe = (msg, color) => {
+    this.props.handleToast(msg, color);
+  }
+
   render() {
 
     return (
@@ -135,7 +139,7 @@ class Home extends Component {
             <p>Need to reach out to someone from #NYCEDU, send an email to: <a href="mailto:hello@nycedu.org">hello@nycedu.org</a>.</p>
           </div>
           <Card style={{padding: "25px", margin: "100px auto 100px", maxWidth: "600px"}}>
-            <SignupForm/>
+            <SignupForm handleSubmission={this.handleSubscribe}/>
           </Card>
         </Section >
       </div>

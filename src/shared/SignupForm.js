@@ -20,6 +20,8 @@ class SignupForm extends Component {
   // Ideal stolen from here: https://stackoverflow.com/questions/8425701/ajax-mailchimp-signup-form-integration
   submit = (e) => {
     e.preventDefault();
+    // Reset errors in form
+    this.setState({errors: ''});
     //How do we get the submitted values
     const that = this;
     const url = this.refs.form.action; //Should get action from form
@@ -28,17 +30,18 @@ class SignupForm extends Component {
     fetchJsonP(url + email, {
       jsonpCallback: 'c'
     })
-      .then(function(response){
+      .then((response) => {
         return response.json();
       })
-      .then(function(json){
+      .then((json) => {
         if (json.result === 'success'){
-          that.props.handleSubmission(json.msg, '#000');
+          this.refs.form.reset(); // reset form
+          that.props.handleSubmission('We just sent you an email to confirm.', '#000');
         } else {
           that.setState({errors: json.msg});
         }
       })
-      .catch(function(error){
+      .catch((error) => {
         that.setState({errors: 'We are having trouble making this request. Try again later.'});
       });
   }
