@@ -30,18 +30,18 @@ class SignupForm extends Component {
     fetchJsonP(url + email, {
       jsonpCallback: 'c'
     })
-      .then((response) => {
+      .then(function(response) {
         return response.json();
       })
-      .then((json) => {
+      .then(function(json) {
         if (json.result === 'success'){
-          this.refs.form.reset(); // reset form
+          that.refs.form.reset(); // reset form
           that.props.handleSubmission('We just sent you an email to confirm.', '#000');
         } else {
           that.setState({errors: json.msg});
         }
       })
-      .catch((error) => {
+      .catch(function(error) {
         that.setState({errors: 'We are having trouble making this request. Try again later.'});
       });
   }
