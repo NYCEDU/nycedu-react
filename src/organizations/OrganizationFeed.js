@@ -18,7 +18,7 @@ export default class OrganizationFeed extends Component {
     const {expandedHandle} = this.state;
     return (
       <ul className="organization-list row">
-        {organizations.map(
+        {organizations.length > 0 && organizations.map(
           (organization) => {
             // Filter out rows missing a twitter handle
             if (organization.twitterHandle) {
@@ -33,6 +33,7 @@ export default class OrganizationFeed extends Component {
             }
           }
         )}
+        {organizations.length === 0 && <p>No organizations found.</p>}
       </ul>
     );
   }
