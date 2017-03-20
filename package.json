@@ -4,8 +4,8 @@
   "private": true,
   "homepage": "http://nycedu.org",
   "devDependencies": {
-    "react-scripts": "0.2.3",
-    "grunt-sftp-deploy": "^0.2.5"
+    "grunt-sftp-deploy": "^0.2.5",
+    "react-scripts": "0.2.3"
   },
   "dependencies": {
     "crypto-js": "^3.1.6",
@@ -17,6 +17,7 @@
     "react-document-title": "^2.0.2",
     "react-dom": "^15.3.1",
     "react-router": "^2.7.0",
+    "react-search-input": "^0.10.4",
     "react-tap-event-plugin": "^2.0.0"
   },
   "scripts": {

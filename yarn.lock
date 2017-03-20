@@ -2066,6 +2066,10 @@ function-bind@^1.0.2:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.0.tgz#16176714c801798e4e8f2cf7f7529467bb4a5771"
 
+fuse.js@^2.2.0:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-2.6.2.tgz#d5d994fda96f543b5a51df38b72cec9cc60d9dea"
+
 gauge@~2.7.1:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/gauge/-/gauge-2.7.1.tgz#388473894fe8be5e13ffcdb8b93e4ed0616428c7"
@@ -3855,6 +3859,12 @@ react-scripts@0.2.3:
     whatwg-fetch "1.0.0"
   optionalDependencies:
     fsevents "1.0.14"
+
+react-search-input@^0.10.4:
+  version "0.10.4"
+  resolved "https://registry.yarnpkg.com/react-search-input/-/react-search-input-0.10.4.tgz#5bd1b39766e02d6e9b2d3f313b8882d73b487f25"
+  dependencies:
+    fuse.js "^2.2.0"
 
 react-side-effect@^1.0.2:
   version "1.0.2"

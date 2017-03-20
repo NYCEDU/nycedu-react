@@ -12,13 +12,14 @@ export default class OrganizationCard extends Component {
         <a target="_blank" href={'http://'+organization.website}>
           <h2>{organization.name}</h2>
         </a>
+        <h3>{organization.topic}</h3>
         <div className="row">
           <div className="col-sm-4 col-xs-12">
             <p>{organization.targetAudience}</p>
             <span>Target user</span>
           </div>
           <div className="col-sm-4 col-xs-12">
-            <p>Hub</p>
+            <p>{organization.network}</p>
             <span>Network</span>
           </div>
           <div className="col-sm-4 col-xs-12">
@@ -55,7 +56,7 @@ export default class OrganizationCard extends Component {
                 <span>Founded</span>
               </div>
               <div className="col-sm-3 col-xs-6">
-                <p>{organization.hq}</p>
+                <p>{organization.impactArea}</p>
                 <span>Impact Area</span>
               </div>
             </div>
