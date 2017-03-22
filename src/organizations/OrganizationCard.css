@@ -29,6 +29,7 @@
 .organization-meta{
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 .organization-meta-item{
   display: flex;

@@ -9,7 +9,7 @@ export default class OrganizationCard extends Component {
   render() {
     const {organization, toggleExpanded, expandedHandle} = this.props;
     return (
-      <div className='organization col-xs-6 col-sm-4 col-lg-4'>
+      <div className='organization col-xs-12 col-sm-6 col-lg-4'>
         <Card>
           <CardMedia
             style={{
