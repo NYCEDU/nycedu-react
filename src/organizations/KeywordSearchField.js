@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import SearchInput, {createFilter} from 'react-search-input';
+import TextField from 'material-ui/TextField';
 
 const KEYS_TO_FILTER = ['name', 'address', 'staticDescription'];
 
@@ -14,7 +15,7 @@ export default class SearchField extends Component {
   render() {
     const {queryText} = this.props;
     return (
-      <div className="col-md-8 offset-md-2">
+      <div>
         <SearchInput
           className="search-input"
           value={queryText}
@@ -22,6 +23,12 @@ export default class SearchField extends Component {
           throttle={0}
           fuzzy={true}
           onChange={this.searchUpdated}
+        />
+        <TextField
+          hintText="e.g. NYCEDU"
+          floatingLabelText="Search"
+          fullWidth={true}
+          floatingLabelFixed={true}
         />
       </div>
     );

@@ -25,7 +25,7 @@ class Organizations extends Component {
 
   getOrganizations = async () => {
     const response = await fetch('https://spreadsheets.google.com/feeds/list/17nmBELMdwT1ScV3j5Vt66wIzSphQhnhhQLdBJdP4oN8/od6/public/values?alt=json');
-    const json = await response.json() 
+    const json = await response.json()
     let orgs = json.feed.entry.map((obj) => {
       return {
         address               : obj['gsx$address']['$t'],
@@ -83,8 +83,8 @@ class Organizations extends Component {
         <DocumentTitle title="Education Organization in NYC | #NYCEDU" />
         <h1>Organizations</h1>
         <p>NYC has the greatest density and number of schools, non-profits, and companies in the country. Take a look at just a snapshot of all the education organizations that call NYC home.</p>
-        <p>Want to add an organization? Email <a href="mailto:hello@nycedu.org" target="_blank">hello@nycedu.org</a>.</p>
-        <div className="row">
+        <p className="text-center">Want to add an organization? Email <a href="mailto:hello@nycedu.org" target="_blank">hello@nycedu.org</a>.</p>
+        <div className="row organizations-options">
           <div className="col-md-6 col-xs-12">
             <KeywordSearchField
               organizations={organizations}
