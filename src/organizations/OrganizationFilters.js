@@ -13,24 +13,24 @@ export default class OrganizationCard extends Component {
       <div className="organization-filters">
         <label>Filters</label>
         <div className='button-bar'>
-          <span className={filter.network['Hub'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['network', 'Hub'])}>Hub</span>
-          <span className={filter.network['Non-hub'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['network', 'Non-hub'])}>Non-Hub</span>
+          <div className={filter.network['Hub'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['network', 'Hub'])}>Hub</div>
+          <div className={filter.network['Non-hub'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['network', 'Non-hub'])}>Non-Hub</div>
         </div>
         <div className='button-bar'>
-          <span className=''>NYC Based</span>
-          <span className=''>Based Elsewhere</span>
+          <div className=''>NYC Based</div>
+          <div className=''>Based Elsewhere</div>
         </div>
         <div className='button-bar'>
-          <span className=''>K12 Student</span>
-          <span className=''>Teacher</span>
-          <span className=''>School</span>
-          <span className=''>Entrepreneur</span>
+          <div className=''>K12 Student</div>
+          <div className=''>Teacher</div>
+          <div className=''>School</div>
+          <div className=''>Entrepreneur</div>
         </div>
         <div className='button-bar'>
-          <span className={filter.organizationType['for-profit'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['organizationType', 'for-profit'])}>For profit</span>
-          <span className={filter.organizationType['b-corporation'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['organizationType', 'b-corporation'])}>B-corporation</span>
-          <span className={filter.organizationType['nonprofit'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['organizationType', 'nonprofit'])}>Non-profit</span>
-          <span className={filter.organizationType['government'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['organizationType', 'government'])}>Government</span>
+          <div className={filter.organizationType['for-profit'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['organizationType', 'for-profit'])}>For profit</div>
+          <div className={filter.organizationType['b-corporation'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['organizationType', 'b-corporation'])}>B-corporation</div>
+          <div className={filter.organizationType['nonprofit'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['organizationType', 'nonprofit'])}>Non-profit</div>
+          <div className={filter.organizationType['government'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['organizationType', 'government'])}>Government</div>
         </div>
       </div>
     );
