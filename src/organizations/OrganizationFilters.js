@@ -2,11 +2,6 @@ import React, { Component } from 'react';
 import './OrganizationFilters.css';
 
 export default class OrganizationCard extends Component {
-  // <span className={filter.targetAudience['k12-student'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['targetAudience', 'k12-student'])}>K12 Student</span>
-  // <span className={filter.targetAudience['teacher'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['targetAudience', 'teacher'])}>Teacher</span>
-  // <span className={filter.targetAudience['school'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['targetAudience', 'school'])}>School</span>
-  // <span className={filter.targetAudience['entrepreneur'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['targetAudience', 'entrepreneur'])}>Entrepreneur</span>
-
   render() {
     const {filter, handleSetFilter} = this.props;
     return (
@@ -17,14 +12,14 @@ export default class OrganizationCard extends Component {
           <div className={filter.network['Non-hub'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['network', 'Non-hub'])}>Non-Hub</div>
         </div>
         <div className='button-bar'>
-          <div className=''>NYC Based</div>
-          <div className=''>Based Elsewhere</div>
+          <div className={filter.hq['NYC'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['hq', 'NYC'])}>NYC Based</div>
+          <div className={filter.hq['NOT-NYC'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['hq', 'NOT-NYC'])}>Based Elsewhere</div>
         </div>
         <div className='button-bar'>
-          <div className=''>K12 Student</div>
-          <div className=''>Teacher</div>
-          <div className=''>School</div>
-          <div className=''>Entrepreneur</div>
+          <div className={filter.targetAudience['K12'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['targetAudience', 'K12'])}>K12 Student</div>
+          <div className={filter.targetAudience['Teacher'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['targetAudience', 'Teacher'])}>Teacher</div>
+          <div className={filter.targetAudience['School'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['targetAudience', 'School'])}>School</div>
+          <div className={filter.targetAudience['Entrepreneur'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['targetAudience', 'Entrepreneur'])}>Entrepreneur</div>
         </div>
         <div className='button-bar'>
           <div className={filter.organizationType['for-profit'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['organizationType', 'for-profit'])}>For profit</div>

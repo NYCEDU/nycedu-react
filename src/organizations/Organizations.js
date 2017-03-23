@@ -9,7 +9,7 @@ import SignupForm from '../shared/SignupForm';
 
 import './Organizations.css';
 
-const BASE_FILTER = {network: {}, organizationType: {}};
+const BASE_FILTER = {network: {}, organizationType: {}, hq: {}, targetAudience: {}};
 
 class Organizations extends Component {
   state = {
