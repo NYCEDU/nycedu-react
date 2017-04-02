@@ -16,7 +16,6 @@ class Organizations extends Component {
     filter: _.cloneDeep(BASE_FILTER),
     loading: true,
     organizations: [],
-    queryText: '',
     visibleOrganizations: [],
   }
 
@@ -57,13 +56,8 @@ class Organizations extends Component {
 
   updateQueryText = (updatedOrganizations, queryText) => {
     this.setState({
-      visibleOrganizations: updatedOrganizations,
-      queryText: queryText
+      visibleOrganizations: updatedOrganizations
     });
-  }
-
-  setSearch = (queryText) => {
-    this.setState({queryText: queryText.toLowerCase()})
   }
 
   handleSetFilter = (f) => {
@@ -80,6 +74,7 @@ class Organizations extends Component {
     let filteredOrganizations = organizations;
     _.each(filters, (values, filter) => {
       const keys = Object.keys(values).filter((k) => {return [k];})
+      // Likely a better way to do this
       if (filter === 'hq') {
         if (keys.length === 2) {
           return;
@@ -98,7 +93,6 @@ class Organizations extends Component {
         }
       }
       if (filteredOrganizations.length > 0 && keys && keys.length > 0) {
-        
         filteredOrganizations = _.filter(filteredOrganizations,
           (organization) => {
             return _.includes(keys, organization[filter]);
@@ -129,7 +123,6 @@ class Organizations extends Component {
             <KeywordSearchField
               organizations={organizations}
               updateQueryText={this.updateQueryText}
-              queryText={queryText}
             />
           </div>
           <div className="col-md-6 col-xs-12">

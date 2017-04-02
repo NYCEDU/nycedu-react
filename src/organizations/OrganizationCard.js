@@ -4,7 +4,7 @@ import FlatButton from 'material-ui/FlatButton';
 
 import './OrganizationCard.css';
 
-const OrganizationCard = ({organization, toggleExpanded, expandedHandle}) => {
+const OrganizationCard = ({organization}) => {
   return (
     <div className='organization col-xs-12 col-sm-6 col-lg-4'>
       <Card>
