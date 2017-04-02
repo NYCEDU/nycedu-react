@@ -113,7 +113,7 @@ class Organizations extends Component {
   }
 
   render() {
-    const {organizations, visibleOrganizations, queryText, filter} = this.state;
+    const {organizations, visibleOrganizations, queryText, filter, loading} = this.state;
     const activeFilter = _.filter(filter, (v, k) => {
       return _.some(v, (v) => {return v === true;});
     })
@@ -136,7 +136,7 @@ class Organizations extends Component {
             <OrganizationFilters filter={filter} handleSetFilter={this.handleSetFilter} />
           </div>
         </div>
-        <OrganizationFeed organizations={filteredOrganizations}/>
+        <OrganizationFeed organizations={filteredOrganizations} loading={loading}/>
         <SignupForm handleSubmission={this.handleSubscribe}/>
       </div>
     );

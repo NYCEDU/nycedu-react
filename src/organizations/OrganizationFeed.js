@@ -14,10 +14,13 @@ export default class OrganizationFeed extends Component {
   }
 
   render() {
-    const {organizations} = this.props;
+    const {organizations, loading} = this.props;
     const {expandedHandle} = this.state;
     return (
       <div className="organization-list row">
+        {loading && (
+          <div className="loading">Loading...</div>
+        )}
         {organizations && organizations.length > 0 ? organizations.map(
           (organization) => {
             // Filter out rows missing a twitter handle
