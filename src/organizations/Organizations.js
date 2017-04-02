@@ -13,7 +13,8 @@ const BASE_FILTER = {network: {}, organizationType: {}, hq: {}, targetAudience: 
 
 class Organizations extends Component {
   state = {
-    filter: BASE_FILTER,
+    filter: _.cloneDeep(BASE_FILTER),
+    loading: true,
     organizations: [],
     queryText: '',
     visibleOrganizations: [],
@@ -51,7 +52,7 @@ class Organizations extends Component {
       }
     );
     // Need an unfiltered list of organizations to pass to the search
-    this.setState({organizations: orgs, visibleOrganizations: orgs});
+    this.setState({organizations: orgs, visibleOrganizations: orgs, loading: false});
   }
 
   updateQueryText = (updatedOrganizations, queryText) => {
@@ -67,8 +68,44 @@ class Organizations extends Component {
 
   handleSetFilter = (f) => {
     let {filter} = this.state;
-    filter[f[0]][f[1]] = !filter[f[0]][f[1]];
+    if (filter[f[0]][f[1]] === true) {
+      delete filter[f[0]][f[1]];
+    } else {
+      filter[f[0]][f[1]] = true;
+    }
     this.setState({filter});
+  }
+
+  filterOrganizations = (organizations, filters) => {
+    let filteredOrganizations = organizations;
+    _.each(filters, (values, filter) => {
+      const keys = Object.keys(values).filter((k) => {return [k];})
+      if (filter === 'hq') {
+        if (keys.length === 2) {
+          return;
+        }
+        if (values['NYC']) {
+          filteredOrganizations = _.filter(filteredOrganizations, (o) => {
+            return o.hq === 'NYC'
+          });
+          return;
+        }
+        if (values['NOT-NYC']) {
+          filteredOrganizations = _.filter(filteredOrganizations, (o) => {
+            return o.hq !== 'NYC'
+          });
+          return; 
+        }
+      }
+      if (filteredOrganizations.length > 0 && keys && keys.length > 0) {
+        
+        filteredOrganizations = _.filter(filteredOrganizations,
+          (organization) => {
+            return _.includes(keys, organization[filter]);
+        })
+      }
+    });
+    return filteredOrganizations;
   }
 
   handleSubscribe = (msg, color) => {
@@ -77,7 +114,10 @@ class Organizations extends Component {
 
   render() {
     const {organizations, visibleOrganizations, queryText, filter} = this.state;
-    const filteredOrganizations = _.isEqual(BASE_FILTER, filter) ? visibleOrganizations : _.filter(visibleOrganizations, filter);
+    const activeFilter = _.filter(filter, (v, k) => {
+      return _.some(v, (v) => {return v === true;});
+    })
+    const filteredOrganizations = activeFilter.length === 0 ? visibleOrganizations : this.filterOrganizations(visibleOrganizations, filter);
     return (
       <div className="organizations-page container">
         <DocumentTitle title="Education Organization in NYC | #NYCEDU" />

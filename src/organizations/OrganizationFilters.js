@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './OrganizationFilters.css';
 
-export default class OrganizationCard extends Component {
+export default class OrganizationFilters extends Component {
   render() {
     const {filter, handleSetFilter} = this.props;
     return (
@@ -17,9 +17,9 @@ export default class OrganizationCard extends Component {
         </div>
         <div className='button-bar'>
           <div className={filter.targetAudience['K12'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['targetAudience', 'K12'])}>K12 Student</div>
-          <div className={filter.targetAudience['Teacher'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['targetAudience', 'Teacher'])}>Teacher</div>
-          <div className={filter.targetAudience['School'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['targetAudience', 'School'])}>School</div>
-          <div className={filter.targetAudience['Entrepreneur'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['targetAudience', 'Entrepreneur'])}>Entrepreneur</div>
+          <div className={filter.targetAudience['Adult'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['targetAudience', 'Adult'])}>Adult</div>
+          <div className={filter.targetAudience['Multiple Segments'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['targetAudience', 'Multiple Segments'])}>Multiple</div>
+          <div className={filter.targetAudience['Education Community'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['targetAudience', 'Education Community'])}>Ed Community</div>
         </div>
         <div className='button-bar'>
           <div className={filter.organizationType['for-profit'] ? 'selected' : ''} onClick={handleSetFilter.bind(null, ['organizationType', 'for-profit'])}>For profit</div>
