@@ -1,0 +1,10 @@
+.organization-list{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.organization-list .loading {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
