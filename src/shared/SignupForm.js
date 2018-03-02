@@ -61,8 +61,8 @@ class SignupForm extends Component {
             onSubmit={this.submit}
             action="https://nycedu.us3.list-manage.com/subscribe/post-json?u=90a5dc9bbb2a0b4a2c2a306e8&amp;id=f88af4fc14" method="get" >
         {signupImageElement}
-        <h2>Join the community!</h2>
-        <p>Sign up to stay informed regarding all things education and NYC</p>
+        <h2>Sign Up</h2>
+        <p>Sign up to stay informed of all things education and NYC</p>
         {error}
         <TextField
           hintText="Enter your email..."
