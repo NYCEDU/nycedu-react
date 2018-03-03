@@ -87,7 +87,7 @@ class Home extends Component {
           <object id="community-background" className="home-backgrounds" type="image/svg+xml" data={communityIllustration}>Your browser does not support svgs.</object>
           <div className="text-box">
             <h1>#NYCEDU</h1>
-            <p>We’re New Yorkers who harness the power of community to fundamentally transform NYC education.</p>
+            <p>We're New Yorkers working together to equip ALL of our city's young people with the skills, resources, and community supports they need to flourish as happy, engaged, and impactful citizens of the world.</p>
           </div>
           <RaisedButton label="see our community" className="see-our" href="/community" />
         </Section>
