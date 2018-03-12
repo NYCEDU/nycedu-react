@@ -4,8 +4,8 @@ import Section from './Section';
 import communityIllustration from './community-illustration.svg';
 import eventIllustration from './events-illustration.svg';
 import organizationsIllustration from './organizations-illustration.svg';
-import startupWeekend from './startup_weekend.jpg';
-import project1 from './project1.png';
+import frontier2018 from './frontier2018.jpg';
+import asid from './asid.jpg';
 import Card from 'material-ui/Card';
 import SignupForm from '../shared/SignupForm'
 
@@ -99,19 +99,19 @@ class Home extends Component {
           <div className="row">
             <div className="col-sm-6">
               <Paper className="project">
-                <img className="project-thumbnail" role="presentation" style={{backgroundImage: 'url(' + startupWeekend + ')' }}/>
+                <img className="project-thumbnail" role="presentation" style={{backgroundImage: 'url(' + frontier2018 + ')' }}/>
                 <div className="project-content">
-                  <h2>Startup Weekend Education NYC</h2>
-                  <p>Startup Weekend Education brings educators, business people, designers, and developers together to collaborative launch tools that reimagine the future of school and education.</p>
+                  <h2>Frontier 2018</h2>
+                  <p>Frontier 2018 is a k-12 education conference that leverages the expertise of NYC's education community to lead effective school reform. The lineup features experts across school leadership, ed-tech, community organizing, entrepreneurial education, and arts activism. Learn more at <a href='https://www.frontier2018.org'>www.frontier2018.org</a>.</p>
                 </div>
               </Paper>
             </div>
             <div className="col-sm-6">
               <Paper className="project">
-                <img className="project-thumbnail" role="presentation" style={{backgroundImage: 'url(' + project1 + ')' }} />
+                <img className="project-thumbnail" role="presentation" style={{backgroundImage: 'url(' + asid + ')' }} />
                 <div className="project-content">
-                  <h2>Design 4 Impact</h2>
-                  <p>D4i is a student-led startup that brings social impact projects to K12 schools via design challenges, an online curriculum, and meetups. It is currently incubated at Avenues: The World School.</p>
+                  <h2>The Alliance for School Integration and Desegregation</h2>
+                  <p>The Alliance for School Integration and Desegregation is a coalition of organizations and individuals dedicated to ending school segregation in New York City. They sponsor <a href='http://bit.ly/nyceducalasid'>#NYCEDU’s School Integration and Desegregation Calendar</a>.</p>
                 </div>
               </Paper>
             </div>
