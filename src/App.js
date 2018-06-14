@@ -63,7 +63,7 @@ class App extends Component {
           />
         </a>
         <a
-          href="https://twitter.com/NYCEDUretweets"
+          href="https://twitter.com/NYCEDUorg"
           target="_blank"
         >
           <img
