@@ -5,14 +5,14 @@
   "homepage": "http://nycedu.org",
   "devDependencies": {
     "grunt-sftp-deploy": "^0.2.5",
-    "react-scripts": "0.2.3"
+    "react-scripts": "^2.1.8"
   },
   "dependencies": {
     "crypto-js": "^3.1.6",
     "fetch-jsonp": "^1.0.2",
     "lodash": "^4.17.11",
     "material-ui": "^0.16.3",
-    "moment": "^2.14.1",
+    "moment": "^2.24.0",
     "react": "^15.4.0",
     "react-document-title": "^2.0.2",
     "react-dom": "^15.3.1",
@@ -27,5 +27,11 @@
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

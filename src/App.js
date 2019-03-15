@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
-
 import DocumentTitle from 'react-document-title';
-
 //Material-UI
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
-injectTapEventPlugin();
 import AppBar from 'material-ui/AppBar';
 import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
@@ -15,6 +11,9 @@ import SignupDialog from './shared/SignupDialog';
 import theme from './theme';
 import iconFacebook from './icon-facebook.svg';
 import iconTwitter from './icon-twitter.svg';
+
+import './App.css';
+injectTapEventPlugin();
 
 class App extends Component {
 
