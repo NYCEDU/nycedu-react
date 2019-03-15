@@ -89,7 +89,6 @@ class Home extends Component {
             <h1>#NYCEDU</h1>
             <p>We're New Yorkers working together to equip ALL of our city's young people with the skills, resources, and community supports they need to flourish as happy, engaged, and impactful citizens of the world.</p>
           </div>
-          <RaisedButton label="see our community" className="see-our" href="/community" />
         </Section>
         <Section className="projects" zIndex={4} backgroundColor='#fff' position={this.state.pos2}>
           <div className="text-box">

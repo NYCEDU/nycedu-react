@@ -7,7 +7,6 @@ import './index.css';
 
 import App from './App';
 import Home from './home/Home';
-import Community from './community/Community';
 import Events from './events/Events';
 import Organizations from './organizations/Organizations';
 
@@ -15,7 +14,6 @@ ReactDOM.render(
   <Router history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} title="Home" />
-      <Route path="community" component={Community} title="Community" />
       <Route path="events" component={Events} title="Events" />
       <Route path="organizations" component={Organizations} title="Organizations" />
     </Route>

@@ -91,7 +91,6 @@ class App extends Component {
             open={this.state.open}
             onRequestChange={(open) => this.setState({open})} >
             <MenuItem leftIcon={<i className="material-icons">home</i>} href="/">Home</MenuItem>
-            <MenuItem leftIcon={<i className="material-icons">face</i>} href="/community">Community</MenuItem>
             <MenuItem leftIcon={<i className="material-icons">event</i>} href="/events">Events</MenuItem>
             <MenuItem leftIcon={<i className="material-icons">account_balance</i>} href="/organizations">Organizations</MenuItem>
           </Drawer>
