@@ -1,3 +1,6 @@
 .event-location span {
   font-weight: bold;
 }
+.event-location {
+  margin-bottom: 10px;
+}
