@@ -10,7 +10,7 @@
   "dependencies": {
     "crypto-js": "^3.1.6",
     "fetch-jsonp": "^1.0.2",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "material-ui": "^0.16.3",
     "moment": "^2.24.0",
     "react": "^15.4.0",
